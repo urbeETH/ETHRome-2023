@@ -2,7 +2,7 @@
   "name": "ethrome",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://urbeeth.github.io/ethrome",
+  "homepage": "https://www.ethrome.xyz/",
   "dependencies": {
     "@headlessui/react": "^1.7.13",
     "@testing-library/jest-dom": "^5.16.5",
