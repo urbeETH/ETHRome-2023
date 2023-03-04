@@ -1,5 +1,4 @@
 import ThemeSwitch from './components/ThemeSwitch'
-import TwitterIcon from './components/TwitterIcon'
 
 function App() {
   return (
@@ -23,12 +22,19 @@ function App() {
         </h1>
         <h2 className='text-base md:text-2xl'>Governance & Privacy Hackathon</h2>
         <p className='text-sm md:text-xl mt-2'>October 2023</p>
-        <div
-          onClick={() => window.open('https://twitter.com/ethereumrome')}
-          className='bg-[#1DA1F2] text-white hover:bg-[#0b83cd] flex space-x-2 items-center hover:text-gray-200 transition-colors cursor-pointer px-4 py-2 rounded-lg font-roboto font-semibold mt-4'
-        >
-          <TwitterIcon fill='#ffffff' height={20} width={20} />
-          <span>Twitter</span>
+        <div className='flex items-center space-x-2'>
+          <div
+            onClick={() => window.open('https://twitter.com/ethereumrome')}
+            className='bg-[#1DA1F2] text-white hover:bg-[#0b83cd] flex space-x-2 items-center hover:text-gray-200 transition-colors cursor-pointer px-4 py-2 rounded-lg font-roboto font-semibold mt-4'
+          >
+            <span>Twitter</span>
+          </div>
+          <div
+            onClick={() => window.open('https://openq.dev')}
+            className='bg-[#161b22] text-white hover:bg-[#11151b] flex space-x-2 items-center hover:text-gray-200 transition-colors cursor-pointer px-4 py-2 rounded-lg font-roboto font-semibold mt-4'
+          >
+            <span>OpenQ</span>
+          </div>
         </div>
       </div>
     </div>
