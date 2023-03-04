@@ -2,7 +2,7 @@ import ThemeSwitch from './components/ThemeSwitch'
 
 function App() {
   return (
-    <div className='min-h-screen relative bg-white dark:bg-black transition-colors w-full flex flex-col md:flex-row items-center space-x-0 md:space-x-16 space-y-8 md:space-y-0 justify-center'>
+    <div className='h-screen relative bg-white dark:bg-black transition-colors w-full flex flex-col md:flex-row items-center space-x-0 md:space-x-16 space-y-8 md:space-y-0 justify-center'>
       <div className='absolute top-2 right-2'>
         <ThemeSwitch />
       </div>
