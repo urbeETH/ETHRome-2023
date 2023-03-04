@@ -2,7 +2,7 @@ import ThemeSwitch from './components/ThemeSwitch'
 
 function App() {
   return (
-    <div className='max-h-screen h-screen relative bg-[#F2F2F2] dark:bg-[#222222] transition-colors w-full flex flex-col md:flex-row items-center space-x-0 md:space-x-16 space-y-8 md:space-y-0 justify-center'>
+    <div className='max-h-screen h-screen relative bg-white dark:bg-black transition-colors w-full flex flex-col md:flex-row items-center space-x-0 md:space-x-16 space-y-8 md:space-y-0 justify-center'>
       <div className='absolute top-2 right-2'>
         <ThemeSwitch />
       </div>
@@ -16,7 +16,7 @@ function App() {
         alt='logo'
         className='h-48 md:h-72 hidden dark:block select-none'
       />
-      <div className='flex flex-col items-center md:items-start text-[#222222] dark:text-[#F2F2F2]'>
+      <div className='flex flex-col items-center md:items-start text-black dark:text-white'>
         <h1 className='text-4xl md:text-6xl font-roboto tracking-tighter'>
           <span className='font-semibold tracking-[-0.1em] mr-2'>ETH</span>Rome
         </h1>
@@ -25,13 +25,13 @@ function App() {
         <div className='flex items-center space-x-2'>
           <div
             onClick={() => window.open('https://twitter.com/ethereumrome')}
-            className='bg-[#1DA1F2] text-[#F2F2F2] hover:bg-[#0b83cd] flex space-x-2 items-center hover:text-gray-200 transition-colors cursor-pointer px-4 py-2 rounded-lg font-roboto font-semibold mt-4'
+            className='bg-[#1DA1F2] text-white hover:bg-[#0b83cd] flex space-x-2 items-center hover:text-gray-200 transition-colors cursor-pointer px-4 py-2 rounded-lg font-roboto font-semibold mt-4'
           >
             <span>Twitter</span>
           </div>
           <div
             onClick={() => window.open('https://openq.dev')}
-            className='bg-[#161b22] text-[#F2F2F2] hover:bg-[#11151b] flex space-x-2 items-center hover:text-gray-200 transition-colors cursor-pointer px-4 py-2 rounded-lg font-roboto font-semibold mt-4'
+            className='bg-[#161b22] text-white hover:bg-[#11151b] flex space-x-2 items-center hover:text-gray-200 transition-colors cursor-pointer px-4 py-2 rounded-lg font-roboto font-semibold mt-4'
           >
             <span>OpenQ</span>
           </div>
