@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Regular'; /*Can be any text*/
+  src: local('Santor'), url('./fonts/santor.otf') format('opentype');
+}
+
+body {
+  margin: 0;
+  font-family: 'Santor', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.font-roboto {
+  font-family: 'Roboto Slab', serif;
+}
