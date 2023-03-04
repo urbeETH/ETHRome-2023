@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ethrome/static/css/main.01653930.css",
-    "main.js": "/ethrome/static/js/main.6e3fa62b.js",
+    "main.js": "/ethrome/static/js/main.1a93e4c5.js",
     "static/js/787.6cfc460c.chunk.js": "/ethrome/static/js/787.6cfc460c.chunk.js",
     "static/media/santor.otf": "/ethrome/static/media/santor.0bd707f08c6f7416735f.otf",
     "index.html": "/ethrome/index.html",
     "main.01653930.css.map": "/ethrome/static/css/main.01653930.css.map",
-    "main.6e3fa62b.js.map": "/ethrome/static/js/main.6e3fa62b.js.map",
+    "main.1a93e4c5.js.map": "/ethrome/static/js/main.1a93e4c5.js.map",
     "787.6cfc460c.chunk.js.map": "/ethrome/static/js/787.6cfc460c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01653930.css",
-    "static/js/main.6e3fa62b.js"
+    "static/js/main.1a93e4c5.js"
   ]
 }
