@@ -8,12 +8,12 @@ function App() {
         <ThemeSwitch />
       </div>
       <img
-        src='/logo_black.svg'
+        src={`${process.env.PUBLIC_URL}/logo_black.svg`}
         alt='logo'
         className='h-48 md:h-72 block dark:hidden select-none'
       />
       <img
-        src='/logo_white.svg'
+        src={`${process.env.PUBLIC_URL}/logo_white.svg`}
         alt='logo'
         className='h-48 md:h-72 hidden dark:block select-none'
       />
