@@ -7,7 +7,7 @@ Date: October '23 (TBD)
 ## Tracks
 
 1) **Governance & Privacy**:
-this is the main track of ETHRome '23. A unique track that combines two major technology trends of the moment: 
+this is the main track of ETHRome '23. A unique track that combines some of the most popular tech trends of the moment: 
 on-chain organizations, DAO tooling, and privacy-preserving solutions such as Zero-Knowledge proofs, anonymization techniques, perfect forward secrecy, and encrypted communication tools.
 
 2) **General**:
