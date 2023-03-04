@@ -8,7 +8,8 @@
   font-family: 'Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Santor'), url('./fonts/santor.woff') format('woff');
+  src: local('Santor'), url('./fonts/santor.woff') format('woff'),
+    url('./fonts/santor.ttf') format('truetype');
 }
 
 body {
