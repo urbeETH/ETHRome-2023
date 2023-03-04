@@ -21,7 +21,7 @@ function App() {
         <h1 className='text-4xl md:text-6xl font-roboto tracking-tighter'>
           <span className='font-semibold tracking-[-0.1em] mr-2'>ETH</span>Rome
         </h1>
-        <h2 className='text-base md:text-2xl'>Hacking history, shaping the future</h2>
+        <h2 className='text-base md:text-2xl'>Governance & Privacy Hackathon</h2>
         <p className='text-sm md:text-xl mt-2'>October 2023</p>
         <div
           onClick={() => window.open('https://twitter.com/ethereumrome')}
