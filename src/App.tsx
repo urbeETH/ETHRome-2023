@@ -1,42 +1,23 @@
-import ThemeSwitch from './components/ThemeSwitch'
+import Hero from './components/Hero'
+import Intro from './components/Intro'
+import Hackathon from './components/Hackathon'
+import Bounties from './components/Bounties'
+import Rome from './components/Rome'
+import Contact from './components/Contact'
+import FloatingIcons from './components/FloatingIcons'
 
 function App() {
   return (
-    <div className='max-h-screen h-screen relative bg-white dark:bg-black transition-colors w-full flex flex-col md:flex-row items-center space-x-0 md:space-x-16 space-y-8 md:space-y-0 justify-center'>
-      <div className='absolute top-2 right-2'>
-        <ThemeSwitch />
-      </div>
-      <img
-        src={`${process.env.PUBLIC_URL}/logo_black.svg`}
-        alt='logo'
-        className='h-48 md:h-72 block dark:hidden select-none'
-      />
-      <img
-        src={`${process.env.PUBLIC_URL}/logo_white.svg`}
-        alt='logo'
-        className='h-48 md:h-72 hidden dark:block select-none'
-      />
-      <div className='flex flex-col items-center md:items-start text-black dark:text-white'>
-        <h1 className='text-4xl md:text-6xl font-roboto tracking-tighter'>
-          <span className='font-semibold tracking-[-0.1em] mr-2'>ETH</span>Rome
-        </h1>
-        <h2 className='text-base md:text-2xl'>Governance & Privacy Hackathon</h2>
-        <p className='text-sm md:text-xl mt-2'>October 2023</p>
-        <div className='flex items-center space-x-2'>
-          <div
-            onClick={() => window.open('https://twitter.com/ethereumrome')}
-            className='bg-[#1DA1F2] text-white hover:bg-[#0b83cd] flex space-x-2 items-center hover:text-gray-200 transition-colors cursor-pointer px-4 py-2 rounded-lg font-roboto font-semibold mt-4'
-          >
-            <span>Twitter</span>
-          </div>
-          <div
-            onClick={() => window.open('https://openq.dev')}
-            className='bg-[#161b22] text-white hover:bg-[#11151b] flex space-x-2 items-center hover:text-gray-200 transition-colors cursor-pointer px-4 py-2 rounded-lg font-roboto font-semibold mt-4'
-          >
-            <span>OpenQ</span>
-          </div>
-        </div>
-      </div>
+    <div className='flex flex-col relative overflow-hidden'>
+      <FloatingIcons />
+      <Hero />
+      <Intro />
+      <Hackathon />
+      <Bounties />
+      <Rome />
+      <div className='hidden md:block w-screen h-[16px] md:h-[35px] bg-[#FFF8E7]' />
+      <div className='w-screen h-[16px] md:h-[35px] bg-[#191818]' />
+      <Contact />
     </div>
   )
 }
