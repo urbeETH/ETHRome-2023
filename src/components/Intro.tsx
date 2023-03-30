@@ -6,7 +6,7 @@ export default function Intro() {
     >
       <div className='flex flex-col items-center justify-evenly space-y-12 md:space-y-0 h-full px-8 md:px-0'>
         <h1 className='text-4xl md:text-6xl max-w-4xl text-white'>
-          The first Web3 international hackathon in the{' '}
+          The 1st international hackathon in the{' '}
           <span className='font-black text-[#FABB00]'>ETHernal city</span>
         </h1>
         <div className='flex space-x-0 md:space-x-24'>
@@ -18,10 +18,10 @@ export default function Intro() {
             </div>
             <p className='text-white text-lg mt-2 ml-2'>
               Join us to tackle web3 most pressing issues enhancing{' '}
-              <span className='font-bold'>Governance & Privacy innovative solutions</span>.
+              <span className='font-bold'>Governance & Privacy-preserving technology.</span>.
             </p>
             <p className='text-white text-lg mt-2 ml-2'>
-              Come to meet ETHalian builders while getting inspired by the historical beauty of
+              Come to meet ETHalian community and get inspired by the historical beauty of
               Rome.
             </p>
           </div>
@@ -34,8 +34,7 @@ export default function Intro() {
             <img src='/urbe_logo_white.png' />
           </div>
           <p className='text-white opacity-60 max-w-xs text-xs text-right'>
-            A community based in Rome that aims to bring together local builders and foster
-            knowledge-sharing about web3 and Ethereum-related topics.
+            A Rome-based community to gather local builders and foster bottom-up innovation and human-composability.
           </p>
         </div>
       </div>

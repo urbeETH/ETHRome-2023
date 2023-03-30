@@ -8,11 +8,6 @@ export default function FloatingIcons() {
         icon='mdi:twitter'
         className='text-2xl cursor-pointer'
       />
-      <Icon
-        // onClick={() => window.open('https://t.me/+oi-scJp6dhk4ODQ0', '_blank')}
-        icon='ic:baseline-telegram'
-        className='text-2xl cursor-pointer'
-      />
     </div>
   )
 }
