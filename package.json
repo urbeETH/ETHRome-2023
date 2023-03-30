@@ -2,7 +2,7 @@
   "name": "ethrome",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.ethrome.xyz/",
+  "homepage": "https://www.ethrome.org/",
   "dependencies": {
     "@headlessui/react": "^1.7.13",
     "@testing-library/jest-dom": "^5.16.5",
@@ -49,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@iconify/react": "^4.1.0",
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
     "eslint": "^8.35.0",

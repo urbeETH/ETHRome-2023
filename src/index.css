@@ -2,19 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
 
-@font-face {
+/* @font-face {
   font-family: 'Santor';
   font-style: normal;
   font-weight: normal;
   src: local('Santor'), url('./fonts/santor.woff') format('woff'),
     url('./fonts/santor.ttf') format('truetype');
-}
+} */
 
 body {
   margin: 0;
-  font-family: 'Santor', serif;
+  font-family: 'Outfit', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -23,6 +23,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-.font-roboto {
+/* .font-roboto {
   font-family: 'Roboto Slab', serif;
-}
+} */
