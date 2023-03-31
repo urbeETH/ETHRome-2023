@@ -7,7 +7,7 @@ export default function Hackathon() {
           <div className='flex flex-col items-center space-y-2 max-w-xs'>
             <div className='relative'>
               <img src='/splash_white_1.png' />
-              <img src='/senator.png' className='absolute top-2 -left-4' />
+              <img src='/gladiator-helm.png' className='absolute top-2 -left-0' />
             </div>
             <h2 className='text-3xl font-medium'>Game of ZKs</h2>
             <p className='text-center'>
@@ -19,7 +19,7 @@ export default function Hackathon() {
           <div className='flex flex-col items-center space-y-2 max-w-xs'>
             <div className='relative'>
               <img src='/splash_white_2.png' />
-              <img src='/scroll.png' className='absolute bottom-0 -right-0' />
+              <img src='/gladiator-sword.png' className='absolute bottom-0 -right-0' />
             </div>
             <h2 className='text-3xl font-medium'>DAOs & Dragons</h2>
             <p className='text-center'>
