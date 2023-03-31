@@ -24,7 +24,7 @@ export default function Header() {
         </h3>
       </div>
       <div
-        // onClick={() => window.open('/SPONSOR_DECK_ETHROME.pdf', '_blank')}
+        onClick={() => window.open('/ETHROME_SPONSOR_DECK.pdf', '_blank')}
         className='w-40 bg-[#8314C7] hover:bg-[#5b0e8b] drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center text-white py-2 font-medium cursor-pointer'
       >
         <p>Sponsor deck</p>
