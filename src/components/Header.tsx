@@ -10,17 +10,23 @@ export default function Header() {
     <div className='hidden md:flex items-center justify-between px-16 py-2'>
       <div className='w-40' />
       <div className='flex items-center justify-center font-semibold space-x-16 text-lg'>
-        <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('intro')}>
+        <h3 className='relative cursor-pointer underline_item' onClick={() => scrollTo('intro')}>
           Intro
         </h3>
-        <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('hackathon')}>
+        <h3 className='relative cursor-pointer underline_item' onClick={() => scrollTo('hackathon')}>
           Hackathon
         </h3>
-        <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('rome')}>
+        <h3 className='relative cursor-pointer underline_item' onClick={() => scrollTo('rome')}>
           Rome
         </h3>
-        <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('contact')}>
+        <h3 className='relative cursor-pointer underline_item' onClick={() => scrollTo('contact')}>
           Contact Us
+        </h3>
+        <h3 className='relative cursor-pointer underline_item' onClick={() => scrollTo('partners')}>
+          Partners
+        </h3>
+        <h3 className='relative cursor-pointer underline_item' onClick={() => scrollTo('faq')}>
+          FAQ
         </h3>
       </div>
       <div
