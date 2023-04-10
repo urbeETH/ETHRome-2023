@@ -20,8 +20,6 @@ function App() {
       <div className='hidden md:block w-screen h-[16px] md:h-[35px] bg-[#FFF8E7]' />
       <div className='w-screen h-[16px] md:h-[35px] bg-[#191818]' />
       <Contact />
-      <Sponsors />
-      <Faq />
     </div>
   )
 }
