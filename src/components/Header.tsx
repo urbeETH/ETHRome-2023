@@ -22,12 +22,6 @@ export default function Header() {
         <h3 className='relative cursor-pointer underline_item' onClick={() => scrollTo('contact')}>
           Contact Us
         </h3>
-        <h3 className='relative cursor-pointer underline_item' onClick={() => scrollTo('partners')}>
-          Partners
-        </h3>
-        <h3 className='relative cursor-pointer underline_item' onClick={() => scrollTo('faq')}>
-          FAQ
-        </h3>
       </div>
       <div
         onClick={() => window.open('/ETHROME_SPONSOR_DECK.pdf', '_blank')}
