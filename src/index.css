@@ -25,6 +25,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+/*Nav elements*/
+
+.underline_item::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -3px;
+  width: 0;
+  height: 3px;
+  background-color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1.5s;
+}
+
+.underline_item:hover::after {
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+}
+
+
+
 /* .font-roboto {
   font-family: 'Roboto Slab', serif;
 } */
