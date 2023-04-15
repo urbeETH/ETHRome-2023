@@ -6,7 +6,7 @@ export default function Intro() {
     >
       <div className='flex flex-col items-center justify-evenly space-y-12 md:space-y-0 h-full px-8 md:px-0'>
         <h1 className='text-4xl md:text-6xl max-w-4xl text-white'>
-          The first Web3 international hackathon in the{' '}
+          The 1st international hackathon in the{' '}
           <span className='font-black text-[#FABB00]'>ETHernal city</span>
         </h1>
         <div className='flex space-x-0 md:space-x-24'>
