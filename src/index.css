@@ -17,6 +17,8 @@ body {
   font-family: 'Outfit', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 code {

@@ -4,7 +4,6 @@ import Header from './Header'
 export default function Hero() {
   return (
     <div className='h-screen relative bg-[#EFEBE6] overflow-hidden'>
-      <Header />
       <div className='flex flex-col items-center justify-center h-full'>
         <div className='flex flex-col md:flex-row items-center space-y-8 md:space-y-0 space-x-0 md:space-x-8 z-10 w-full md:w-auto'>
           <div className='relative'>
