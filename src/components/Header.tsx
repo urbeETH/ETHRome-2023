@@ -57,9 +57,6 @@ export default function Header() {
           <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('contact')}>
             Sponsor Zone
           </h3>
-          <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('rome')}>
-            Rome
-          </h3>
         </div>
       </div>
       <div
@@ -86,9 +83,6 @@ export default function Header() {
             </h3>
             <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('contact')}>
               Sponsor Zone
-            </h3>
-            <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('rome')}>
-              Rome
             </h3>
           </div>
         )}
