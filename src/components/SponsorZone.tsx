@@ -12,7 +12,7 @@ export default function SponsorZone() {
           demonstrate your unwavering support for the development of the blockchain space!
         </p>
         <div
-          onClick={() => window.open('/SPONSOR_DECK_ETHROME.pdf', '_blank')}
+          onClick={() => window.open('/ETHROME_SPONSOR_DECK.pdf', '_blank')}
           className='w-40 hover:bg-[#5b0e8b] transition-colors bg-[#8314C7] drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center text-white py-2 font-medium cursor-pointer'
         >
           <p>Sponsor deck</p>
