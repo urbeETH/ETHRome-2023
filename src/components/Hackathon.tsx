@@ -22,7 +22,7 @@ export default function Hackathon() {
             <p className='text-center'>
               Hackers will showcase their skills in implementing{' '}
               <span className='font-bold'>decentralized governance infrastructures</span> and
-              <span className='font-bold'>decision-making mechanisms</span>.
+              <span className='font-bold'> decision-making mechanisms</span>.
             </p>
           </div>
         </div>
