@@ -1,4 +1,14 @@
-import { useEffect, useState } from 'react'
+import { StaticImage } from 'gatsby-plugin-image'
+import React, { FC, useEffect, useState } from 'react'
+
+import { PropsWithClassName } from '@/types'
+
+import Menu from '../images/vector/menu.svg'
+import MenuClose from '../images/vector/menu_close.svg'
+
+const EthromeLogo: FC<PropsWithClassName> = ({ className }) => (
+  <StaticImage src='../images/ethrome_logo.png' alt='ethrome logo' className={className} />
+)
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -43,8 +53,8 @@ export default function Header() {
       <div
         className={`hidden md:flex items-center justify-between px-16 py-4 fixed w-full z-50 ${headerBackground}`}
       >
-        <img src='/ethrome_logo.png' className='w-40' />
-        <div className='flex items-center justify-center font-semibold space-x-10 text-lg'>
+        <EthromeLogo className='w-40' />
+        <div className='flex items-center justify-center space-x-10 text-lg font-semibold'>
           <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('intro')}>
             About
           </h3>
@@ -63,15 +73,15 @@ export default function Header() {
         className={`flex flex-col md:hidden px-4 py-4 fixed w-full ${headerBackground} transition-colors z-50`}
       >
         <div className={'flex items-center justify-between'}>
-          <img src='/ethrome_logo.png' className='w-40' />
-          <img
-            src={!isMenuOpen ? '/menu.svg' : '/menu_close.svg'}
-            className='h-6'
-            onClick={() => toggleMenu()}
-          />
+          <EthromeLogo className='w-40' />
+          {isMenuOpen ? (
+            <MenuClose className='h-6' onClick={() => toggleMenu()} />
+          ) : (
+            <Menu className='h-6' onClick={() => toggleMenu()} />
+          )}
         </div>
         {isMenuOpen && (
-          <div className='flex flex-col items-center space-y-4 mt-4 text-lg font-medium'>
+          <div className='flex flex-col items-center mt-4 space-y-4 text-lg font-medium'>
             <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('intro')}>
               About
             </h3>

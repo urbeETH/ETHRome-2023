@@ -1,46 +1,38 @@
-# Getting Started with Create React App
+# ETHRome 2023
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The first IRL web3 hackathon in Rome focused on governance and privacy-preserving technologies.
+Date: October '23 (TBD)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Tracks
 
-### `npm start`
+1) **Governance & Privacy**:
+this is the main track of ETHRome '23. A unique track that combines some of the most popular tech trends of the moment: 
+on-chain organizations, DAO tooling, and privacy-preserving solutions such as Zero-Knowledge proofs, anonymization techniques, perfect forward secrecy, and encrypted communication tools.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2) **General**:
+all projects that do not fall under the first track are eligible. It can refer to any EVM-related topic such as DeFi, public goods, security, and games.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Bounties
+Besides the track, hackers can select sponsor bounties to apply to. All bounties can theoretically be chosen for both tracks. Until May 31, only those who are sponsors can propose a bounty.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Hacking Rules
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Hacker teams are made up of a maximum of 4 people. 
+- At least one member of the team must physically be at ETHRome to present the submission to the judges
+- The hackathon has a 42-hour duration: from 5 pm on Friday to 11 am on Sunday. Judging and award ceremonies to follow
+- Hackers have to decide which of the two tracks to compete at and can apply to all the bounties they prefer
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Application
+Soon the application form will be ready.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Sponsors
+Soon the sponsor deck will be ready. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Other info
+Other info for the dates, location, hacking rules, etc., will be provided soon. If you're interested in joining the hackathon as a hacker or as a sponsor, you can start following [the official #ethrome23 Twitter](https://twitter.com/ethereumrome)

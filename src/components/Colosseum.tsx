@@ -1,9 +1,12 @@
+import React from 'react'
+
+import ColosseumVector from '../images/vector/colosseum_big.svg'
 import Footer from './Footer'
 
 export default function Colosseum() {
   return (
     <div className='bg-[#EFEBE6] relative' id='rome'>
-      <img src='/colosseum_big.svg' className='w-screen h-full' />
+      <ColosseumVector className='w-screen h-full' />
       <Footer />
     </div>
   )

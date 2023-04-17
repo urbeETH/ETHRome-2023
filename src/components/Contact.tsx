@@ -1,10 +1,13 @@
+import { StaticImage } from 'gatsby-plugin-image'
+import React from 'react'
+
 export default function Contact() {
   return (
     <div className='h-auto py-24 md:py-0 md:h-screen relative bg-[#EFEBE6]'>
       <div className='flex flex-col items-center justify-center h-full space-y-24' id='contact'>
-        <div className='flex flex-col md:flex-row items-center space-x-0 md:space-x-24'>
-          <img src='/crown.png' className='h-48 md:h-auto' />
-          <div className='flex flex-col items-center md:items-start justify-center md:justify-start text-center md:text-left space-y-4'>
+        <div className='flex flex-col items-center space-x-0 md:flex-row md:space-x-24'>
+          <StaticImage src='../images/crown.png' alt='crown' className='h-48 md:h-auto' />
+          <div className='flex flex-col items-center justify-center space-y-4 text-center md:items-start md:justify-start md:text-left'>
             <h1 className='font-bold text-7xl'>Sponsor Zone</h1>
             <p>Elevate your brand and expand your network with a sponsorship at our event!</p>
             <p>
