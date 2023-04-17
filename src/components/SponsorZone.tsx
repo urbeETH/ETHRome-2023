@@ -29,7 +29,7 @@ export default function SponsorZone() {
           sponsor@ethrome.org
         </a>
       </div>
-      <Temple className='absolute bottom-0 right-0 h-[261px] md:h-auto' />
+      <Temple className='absolute bottom-0 right-0 h-[261px] w-[267px] md:h-auto md:w-auto' />
     </div>
   )
 }

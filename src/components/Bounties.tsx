@@ -24,7 +24,7 @@ export default function Bounties() {
           <StaticImage
             src='../images/splash_yellow_2.png'
             alt='splash yellow'
-            className='absolute -translate-x-full -bottom-6 w-[156px] h-[118px]'
+            className='absolute md:translate-x-0 -translate-x-full -bottom-6 w-[156px] h-[118px]'
           />
         </div>
         <h2 className='z-20 max-w-xl text-xl font-light text-white'>
