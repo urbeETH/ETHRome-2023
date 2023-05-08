@@ -3,17 +3,21 @@ import { SponsorDeckLink } from './SponsorZone'
 
 export default function Hero() {
   return (
-    <div className='h-screen relative bg-[#EFEBE6] overflow-hidden'>
-      <div className='flex flex-col items-center justify-start h-full md:justify-center pt-28 md:pt-0'>
-        <div className='z-10 flex flex-col items-center w-full space-x-0 space-y-8 md:flex-row md:space-y-0 md:space-x-8 md:w-auto'>
-          <div className='relative'>
+    <div className='h-calc-screen-75 relative mt-[75px] bg-[#EFEBE6]'>
+      <div className='flex flex-col items-center justify-start h-full md:justify-center md:pt-0'>
+
+        <div className='z-10 flex flex-col items-center justify-between w-full h-full space-x-0 md:flex-row md:space-y-0 md:space-x-8 md:w-auto'>
+          {/* logo */}
+          <div className='relative flex flex-col justify-center flex-auto'>
             <img src='splash_logo.png' className='hidden md:block' />
             <img
               src='ethrome_logo.svg'
               className='relative h-56 md:absolute md:bottom-20 md:right-4 md:h-auto'
             />
           </div>
-          <div className='flex flex-col items-center w-full px-4 space-y-8 md:items-start md:space-y-8 md:w-auto'>
+
+          {/* hacking history */}
+          <div className='flex flex-col items-center flex-auto w-full px-4 space-y-8 md:items-start md:space-y-8 md:w-auto'>
             <div className='flex flex-col items-center md:items-start'>
               <h1 className='text-5xl md:text-7xl'>
                 <span className='font-bold'>ETH</span>
@@ -39,12 +43,14 @@ export default function Hero() {
               </div>
             </div>
           </div>
+
+          {/* dates */}
+          <div className='flex flex-col flex-auto mt-12 text-center text-black md:hidden'>
+            <h3 className='text-xl font-semibold'>6-8th October 2023</h3>
+            <p className='text-xl'>Governance & Privacy Hackathon</p>
+          </div>
         </div>
 
-        <div className='absolute z-10 flex flex-col text-center text-black md:hidden bottom-12'>
-          <h3 className='text-xl font-semibold'>6-8th October 2023</h3>
-          <p className='text-xl'>Governance & Privacy Hackathon</p>
-        </div>
         <img
           src='splash_white_mobile.png'
           className='absolute z-0 block w-full md:hidden -bottom-56'
