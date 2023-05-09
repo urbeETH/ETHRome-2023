@@ -10,7 +10,7 @@ import Colosseum from './components/Colosseum'
 function App() {
   return (
     <>
-      <div className='flex flex-col relative overflow-hidden'>
+      <div className='relative flex flex-col overflow-hidden'>
         <Header />
         <Hero />
         <Intro />

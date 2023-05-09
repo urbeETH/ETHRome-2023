@@ -17,7 +17,7 @@ export default function Hero() {
           </div>
 
           {/* hacking history */}
-          <div className='flex flex-col items-center flex-auto w-full px-4 space-y-8 md:items-start md:space-y-8 md:w-auto'>
+          <div className='flex flex-col items-center w-full px-4 space-y-8 md:items-start md:space-y-8 md:w-auto'>
             <div className='flex flex-col items-center md:items-start'>
               <h1 className='text-5xl md:text-7xl'>
                 <span className='font-bold'>ETH</span>
@@ -31,6 +31,8 @@ export default function Hero() {
               <h3 className='text-xl font-semibold'>6-8th October 2023</h3>
               <p className='text-xl'>Governance & Privacy Hackathon</p>
             </div>
+
+            {/* deck link */}
             <div className='flex flex-col items-center w-5/6 mt-4 space-x-0 space-y-4 md:flex-row md:space-x-4 md:space-y-0'>
               <SponsorDeckLink className='w-full md:w-40 bg-[#8314C7] hover:bg-[#5b0e8b] transition-colors drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center text-white py-2 font-medium'/>
 
@@ -45,7 +47,7 @@ export default function Hero() {
           </div>
 
           {/* dates */}
-          <div className='flex flex-col flex-auto mt-12 text-center text-black md:hidden'>
+          <div className='flex flex-col justify-center flex-auto text-center text-black md:hidden'>
             <h3 className='text-xl font-semibold'>6-8th October 2023</h3>
             <p className='text-xl'>Governance & Privacy Hackathon</p>
           </div>
