@@ -3,7 +3,7 @@ export default function Partners() {
     return (
         <div className='py-16 md:py-24 bg-[#EFEBE6] flex flex-col items-center justify-center'>
             <h4 className='uppercase opacity-60 text-black font-semibold'>Partners</h4>
-            <div className='grid grid-cols-2 md:grid-cols-4 gap-x-6 md:gap-x-32'>
+            <div className='py-16 grid grid-cols-2 md:grid-cols-4 gap-x-6 md:gap-x-32'>
                 <ImageLink imagePath="/partners/logo-ledger.png" url="https://www.ledger.com/" alt="logo-ledger"/>
                 <a href='https://web3privacy.info/' target='_blank' rel='noreferrer'><img
                     src='/partners/logo-web3privacy.png' className='h-20 md:h-32'/></a>
