@@ -1,5 +1,3 @@
-import { Icon } from '@iconify/react'
-import { SponsorDeckLink } from './SponsorZone'
 
 export default function Hero() {
   return (
@@ -12,7 +10,7 @@ export default function Hero() {
             <img src='splash_logo.png' className='hidden md:block' />
             <img
               src='ethrome_logo.svg'
-              className='relative w-[28vh] md:absolute md:bottom-20 md:right-4 md:h-auto'
+              className='relative w-[28vh] md:w-auto md:absolute md:bottom-20 md:right-4 md:h-auto'
             />
           </div>
 
