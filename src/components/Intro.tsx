@@ -16,11 +16,11 @@ export default function Intro() {
               <img src='/splash_yellow.png' />
               <img src='/icon-lecture.svg' className='absolute bottom-2 left-4' />
             </div>
-            <p className='mt-2 ml-2 text-lg font-light text-white'>
+            <p className='mt-2 ml-2 text-lg font-light text-white md:text-xl font-redhat'>
               Join us to tackle web3 most pressing issues enhancing{' '}
               <span className='font-bold'>Governance & Privacy preserving technologies</span>.
             </p>
-            <p className='mt-2 ml-2 text-lg font-light text-white'>
+            <p className='mt-2 ml-2 text-lg font-light text-white md:text-xl font-redhat'>
               Come to meet <span className='font-bold'>ETHalian community</span> while getting
               inspired by the historical beauty of Rome.
             </p>
@@ -33,7 +33,7 @@ export default function Intro() {
             <p className='font-semibold text-white'>HOSTED BY</p>
             <img src='/urbe_logo_white.png' />
           </div>
-          <p className='text-white opacity-60 max-w-[211px] text-xs text-right'>
+          <p className='text-white font-redhat opacity-60 max-w-[280px] text-md text-right'>
             A Rome-based community to foster bottom-up innovation and cultivate human-composability.
           </p>
         </div>

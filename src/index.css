@@ -3,14 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
-
-/* @font-face {
-  font-family: 'Santor';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Santor'), url('./fonts/santor.woff') format('woff'),
-    url('./fonts/santor.ttf') format('truetype');
-} */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
 
 body {
   margin: 0;
@@ -26,7 +19,6 @@ code {
 }
 
 /*Nav elements*/
-
 .underline_item::after {
   content: "";
   position: absolute;
@@ -44,9 +36,3 @@ code {
   background-color: #000;
   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
 }
-
-
-
-/* .font-roboto {
-  font-family: 'Roboto Slab', serif;
-} */

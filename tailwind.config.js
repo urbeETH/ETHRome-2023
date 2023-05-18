@@ -7,6 +7,9 @@ module.exports = {
       height: {
         'calc-screen-75': 'calc(100vh - 75px)',
       },
+      fontFamily: {
+        redhat: ['Red Hat Display', 'sans-serif'],
+      },
     },
   },
   plugins: [],

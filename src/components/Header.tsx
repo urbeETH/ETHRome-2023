@@ -44,7 +44,7 @@ export default function Header() {
         className={`hidden md:flex items-center justify-between px-16 py-4 fixed w-full z-50 ${headerBackground}`}
       >
         <img src='/ethrome_logo.png' className='w-40' />
-        <div className='flex items-center justify-center font-semibold space-x-10 text-lg'>
+        <div className='flex items-center justify-center space-x-10 text-lg font-semibold'>
           <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('intro')}>
             About
           </h3>
@@ -71,7 +71,7 @@ export default function Header() {
           />
         </div>
         {isMenuOpen && (
-          <div className='flex flex-col items-center space-y-4 mt-4 text-lg font-medium'>
+          <div className='flex flex-col items-center mt-4 space-y-4 text-lg font-medium'>
             <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('intro')}>
               About
             </h3>
