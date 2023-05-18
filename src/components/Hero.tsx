@@ -34,14 +34,16 @@ export default function Hero() {
 
             {/* deck link */}
             <div className='flex flex-col items-center w-5/6 mt-4 space-x-0 space-y-4 md:flex-row md:space-x-4 md:space-y-0'>
-              <SponsorDeckLink className='w-full md:w-40 bg-[#8314C7] hover:bg-[#5b0e8b] transition-colors drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center text-white py-2 font-medium'/>
+              <a href="https://app.deform.cc/form/ad737d44-8ee3-4a7f-999e-bbca563002e2/" rel="noreferrer" target="_blank" className='w-full md:w-40 bg-[#8314C7] hover:bg-[#5b0e8b] transition-colors drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center text-white py-2 font-medium'>
+                <p>Apply to hack</p>
+              </a>
 
               <div
-                onClick={() => window.open('https://twitter.com/ethereumrome', '_blank')}
+                onClick={() => window.open('/ETHROME_SPONSOR_DECK.pdf', '_blank')}
                 className='w-full md:w-40 bg-transparent border-2 border-[#8314C7] hover:border-[#5b0e8b] hover:text-[#5b0e8b] text-[#8314C7] drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center py-2 font-medium cursor-pointer'
               >
-                <Icon icon='mdi:twitter' className='text-2xl cursor-pointer' />
-                <p>Stay tuned</p>
+                { /* <Icon icon='mdi:twitter' className='text-2xl cursor-pointer' /> */ }
+                <p>Sponsor deck</p>
               </div>
             </div>
           </div>
