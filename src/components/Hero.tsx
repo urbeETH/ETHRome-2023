@@ -12,18 +12,18 @@ export default function Hero() {
             <img src='splash_logo.png' className='hidden md:block' />
             <img
               src='ethrome_logo.svg'
-              className='relative h-56 md:absolute md:bottom-20 md:right-4 md:h-auto'
+              className='relative w-[28vh] md:absolute md:bottom-20 md:right-4 md:h-auto'
             />
           </div>
 
           {/* hacking history */}
           <div className='flex flex-col items-center w-full px-4 space-y-8 md:items-start md:space-y-8 md:w-auto'>
             <div className='flex flex-col items-center md:items-start'>
-              <h1 className='text-5xl md:text-7xl'>
+              <h1 className='text-4xl sm:text-5xl md:text-7xl'>
                 <span className='font-bold'>ETH</span>
                 <span className='font-light'>Rome</span>
               </h1>
-              <h2 className='text-2xl md:text-4xl font-normal text-center md:text-left max-w-[240px] md:max-w-none mt-2 md:mt-0'>
+              <h2 className='text-xl sm:text-2xl md:text-4xl font-normal text-center md:text-left max-w-[240px] md:max-w-none mt-2 md:mt-0'>
                 Hacking history, shaping the future
               </h2>
             </div>
