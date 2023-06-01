@@ -3,7 +3,7 @@ export default function Partners() {
   return (
     <div className='py-16 md:py-24 bg-[#EFEBE6] flex flex-col items-center justify-center'>
       <h4 className='font-semibold text-black uppercase opacity-60'>Partners</h4>
-      <div className='grid grid-cols-2 py-16 md:grid-cols-4 gap-x-6 md:gap-x-16 max-w-4xl'>
+      <div className='grid grid-cols-2 py-16 md:grid-cols-4 gap-x-6 md:gap-x-16 max-w-4xl place-items-center px-8'>
         <ImageLink
           imagePath='/partners/logo-aragon.png'
           url='https://research.aragon.org/'

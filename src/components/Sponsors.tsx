@@ -3,7 +3,7 @@ export default function Sponsors() {
   return (
     <div className='pt-16 md:pt-24 bg-[#EFEBE6] flex flex-col items-center justify-center'>
       <h4 className='font-semibold text-black uppercase opacity-60'>Sponsors</h4>
-      <div className='grid grid-cols-2 py-16 md:grid-cols-4 gap-x-6 md:gap-x-16 max-w-4xl'>
+      <div className='grid grid-cols-2 py-16 md:grid-cols-4 gap-x-6 md:gap-x-16 max-w-4xl mx-auto place-items-center px-8'>
         <ImageLink
           imagePath='/sponsors/logo-gnosis-chain.svg'
           url='https://www.gnosis.io/'
