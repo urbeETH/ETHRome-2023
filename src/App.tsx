@@ -6,6 +6,7 @@ import SponsorZone from './components/SponsorZone'
 import Header from './components/Header'
 import Partners from './components/Partners'
 import Colosseum from './components/Colosseum'
+import Sponsors from './components/Sponsors'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Hackathon />
         <Bounties />
         <SponsorZone />
+        <Sponsors />
         <Partners />
         {/* <Contact /> */}
         <Colosseum />
