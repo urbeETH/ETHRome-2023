@@ -1,8 +1,22 @@
+import { Icon } from '@iconify/react'
 
 export default function Hero() {
   return (
     <div className='h-calc-screen-75 relative mt-[75px] bg-[#EFEBE6]'>
+
       <div className='flex flex-col items-center justify-start h-full md:justify-center md:pt-0'>
+
+        <a
+          className='absolute flex sm:hidden right-2 top-4 bg-[#4D9FEA] p-3 rounded-3xl gap-1 z-50'
+          href='https://twitter.com/ethereumrome'
+          target='_blank'
+        >
+          <Icon
+              icon='mdi:twitter'
+              className='text-2xl text-white cursor-pointer'
+            />
+            <h2 className='text-white'>Stay tuned</h2>
+        </a>
 
         <div className='z-10 flex flex-col items-center justify-between w-full h-full space-x-0 md:flex-row md:space-y-0 md:space-x-8 md:w-auto'>
           {/* logo */}
