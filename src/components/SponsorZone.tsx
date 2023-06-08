@@ -1,8 +1,9 @@
 import { FC } from 'react'
 import { PropsWithClassName } from '../types'
+import { sponsorDeck } from '../urls'
 
 export const SponsorDeckLink: FC<PropsWithClassName> = ({ className }) => (
-  <a href="/ETHROME_SPONSOR_DECK.pdf" target="_blank" className={className}>
+  <a href={sponsorDeck} target="_blank" className={className}>
     <p>Sponsor deck</p>
   </a>
 )

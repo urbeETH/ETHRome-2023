@@ -1,4 +1,5 @@
 import { Icon } from '@iconify/react'
+import { sponsorDeck } from '../urls'
 
 export default function Hero() {
   return (
@@ -51,7 +52,7 @@ export default function Hero() {
               </a>
 
               <div
-                onClick={() => window.open('/ETHROME_SPONSOR_DECK.pdf', '_blank')}
+                onClick={() => window.open(sponsorDeck, '_blank')}
                 className='w-full md:w-40 bg-transparent border-2 border-[#8314C7] hover:border-[#5b0e8b] hover:text-[#5b0e8b] text-[#8314C7] drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center py-2 font-medium cursor-pointer'
               >
                 { /* <Icon icon='mdi:twitter' className='text-2xl cursor-pointer' /> */ }

@@ -71,6 +71,11 @@ export default function Partners() {
           url='https://www.ethswarm.org/'
           alt='Logo EthSwarn'
         />
+        <ImageLink
+          imagePath='/partners/logo-legalhackers.svg'
+          url='https://www.legalhackersroma.it/'
+          alt='Logo Legal Hackers'
+        />
       </div>
     </div>
   )
