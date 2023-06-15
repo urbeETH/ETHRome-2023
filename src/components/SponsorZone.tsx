@@ -20,13 +20,7 @@ export default function SponsorZone() {
           Seize the chance to gain exceptional exposure, establish valuable connections, and
           demonstrate your unwavering support for the development of the blockchain space!
         </p>
-        <SponsorDeckLink className='hover:bg-[#5b0e8b] px-4 transition-colors bg-[#8314C7] drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center text-white py-2 font-medium' />
-        <a
-          href='mailto:sponsor@ethrome.org?subject=Request%20ETHRome%20Deck'
-          className='text-[#F8FCFC] opacity-60 underline text-md'
-        >
-          sponsor@ethrome.org
-        </a>
+        <SponsorDeckLink className='hover:bg-rome-100 px-4 transition-colors bg-rome-50 drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center text-white py-2 font-medium' />
       </div>
       <img src='/temple.svg' className='absolute bottom-0 right-0 h-[261px] md:h-auto' />
     </div>

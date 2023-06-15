@@ -15,11 +15,11 @@ export default function Contact() {
             <a
               href="mailto:sponsor@ethrome.org?subject=Request%20ETHRome%20Deck"
               target="_blank"
-              className='w-40 hover:bg-[#5b0e8b] transition-colors bg-[#8314C7] drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center text-white py-2 font-medium cursor-pointer'
+              className='w-40 hover:bg-rome-50 transition-colors bg-rome-100 drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center text-white py-2 font-medium cursor-pointer'
             >
               <p>Request Sponsor deck</p>
             </a>
-            <a href='mailto:sponsor@ethrome.org?subject=Request%20ETHRome%20Deck' className='text-[#8314C7]'>
+            <a href='mailto:sponsor@ethrome.org?subject=Request%20ETHRome%20Deck' className='text-rome-100'>
               sponsor@ethrome.org
             </a>
           </div>

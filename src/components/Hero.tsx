@@ -31,22 +31,22 @@ export default function Hero() {
               <p className='text-xl'>Governance & Privacy Hackathon</p>
             </div>
 
-            {/* deck link */}
+            {/* hacker form link */}
             <div className='flex flex-col items-center w-5/6 mt-4 space-x-0 space-y-4 md:flex-row md:space-x-4 md:space-y-0'>
-              <a href="https://bit.ly/ethrome-hacker-form-website" rel="noreferrer" target="_blank" className='w-full md:w-40 bg-[#8314C7] hover:bg-[#5b0e8b] transition-colors drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center text-white py-2 font-medium'>
+              <a href="https://bit.ly/ethrome-hacker-form-website" rel="noreferrer" target="_blank" className='w-full md:w-40 bg-rome-50 hover:bg-rome-100 transition-colors drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center text-white py-2 font-medium'>
                 <p>Apply to hack</p>
               </a>
 
               <a
-                className='sm:w-auto w-full justify-center flex right-2 top-4 bg-[#4D9FEA] p-3 rounded-3xl gap-1 z-50 hover:bg-[#167abd] drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] font-medium'
+                className='w-full md:w-40 text-rome-50 transition-colors drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center py-2 font-medium border-2 border-rome-50 hover:text-white hover:bg-rome-100 hover:border-transparent'
                 href='https://twitter.com/ethereumrome'
                 target='_blank'
               >
                 <Icon
                     icon='mdi:twitter'
-                    className='text-2xl text-white cursor-pointer'
+                    className='text-2xl cursor-pointer'
                   />
-                  <h2 className='text-white'>Stay tuned</h2>
+                  <h2>Stay tuned</h2>
               </a>
             </div>
           </div>

@@ -6,7 +6,7 @@ export default function Footer() {
       <img src='/logo_footer.png' className='h-20' />
       <p className='text-2xl text-center text-white'>Hacking history, shaping the future.</p>
 
-      <div className='flex items-center gap-8'>
+      <div className='flex items-center gap-8 px-8'>
         <Icon
           onClick={() => window.open('https://twitter.com/ethereumrome', '_blank')}
           icon='mdi:twitter'

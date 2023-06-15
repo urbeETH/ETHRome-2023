@@ -9,7 +9,7 @@ export default function Sponsors() {
           imagePath='/sponsors/logo-gnosis.svg'
           url="https://www.gnosis.io/"
           alt='Logo Gnosis Chain'
-          className='h-32 md:h-40'
+          className='h-40 md:h-60'
         />
       </div>
       <div className='flex flex-row w-full justify-evenly'>
