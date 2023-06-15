@@ -1,4 +1,3 @@
-import { sponsorDeck } from '../urls'
 
 export default function Contact() {
   return (
@@ -13,13 +12,14 @@ export default function Contact() {
               Connect with top talent, showcase your innovative product, and take your business to
               new heights.
             </p>
-            <div
-              onClick={() => window.open(sponsorDeck, '_blank')}
+            <a
+              href="mailto:sponsor@ethrome.org?subject=Request%20ETHRome%20Deck"
+              target="_blank"
               className='w-40 hover:bg-[#5b0e8b] transition-colors bg-[#8314C7] drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center text-white py-2 font-medium cursor-pointer'
             >
-              <p>Sponsor deck</p>
-            </div>
-            <a href='mailto:sponsor@ethrome.org' className='text-[#8314C7]'>
+              <p>Request Sponsor deck</p>
+            </a>
+            <a href='mailto:sponsor@ethrome.org?subject=Request%20ETHRome%20Deck' className='text-[#8314C7]'>
               sponsor@ethrome.org
             </a>
           </div>

@@ -1,25 +1,36 @@
-import ImageLink from './ImageLink'
+import { Image } from './ImageLink'
 export default function Sponsors() {
   return (
     <div className='pt-16 md:pt-24 bg-[#EFEBE6] flex flex-col items-center justify-center'>
       <h4 className='font-semibold text-black uppercase opacity-60'>Sponsors</h4>
-      <div className='grid max-w-4xl grid-cols-2 px-8 py-16 mx-auto md:grid-cols-4 gap-x-6 md:gap-x-16 place-items-center'>
-        <ImageLink
+      {/* senator */}
+      <div className='flex flex-col'>
+        <Image
           imagePath='/sponsors/logo-gnosis.svg'
-          url='https://www.gnosis.io/'
+          url="https://www.gnosis.io/"
           alt='Logo Gnosis Chain'
+          className='h-32 md:h-40'
         />
-        <ImageLink
+      </div>
+      <div className='flex flex-row w-full justify-evenly'>
+        <Image
           imagePath='/sponsors/logo-esp.svg'
           url='https://esp.ethereum.foundation/'
           alt='Logo EF ESP'
+          className='h-16 md:h-28'
         />
-        <ImageLink
+        <Image
           imagePath='/sponsors/logo-sismo.svg'
           url='https://www.sismo.io/'
           alt='Logo Sismo'
+          className='h-16 md:h-28'
         />
-        <ImageLink imagePath='/sponsors/logo-base.svg' url='https://base.org' alt='Logo Base' />
+        <Image
+          imagePath='/sponsors/logo-base.svg'
+          url='https://base.org'
+          alt='Logo Base'
+          className='h-16 md:h-28'
+        />
       </div>
     </div>
   )

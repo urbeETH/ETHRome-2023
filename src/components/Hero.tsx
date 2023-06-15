@@ -1,24 +1,10 @@
 import { Icon } from '@iconify/react'
-import { sponsorDeck } from '../urls'
 
 export default function Hero() {
   return (
     <div className='h-calc-screen-75 relative mt-[75px] bg-[#EFEBE6]'>
 
       <div className='flex flex-col items-center justify-start h-full md:justify-center md:pt-0'>
-
-        <a
-          className='absolute flex sm:hidden right-2 top-4 bg-[#4D9FEA] p-3 rounded-3xl gap-1 z-50'
-          href='https://twitter.com/ethereumrome'
-          target='_blank'
-        >
-          <Icon
-              icon='mdi:twitter'
-              className='text-2xl text-white cursor-pointer'
-            />
-            <h2 className='text-white'>Stay tuned</h2>
-        </a>
-
         <div className='z-10 flex flex-col items-center justify-between w-full h-full space-x-0 md:flex-row md:space-y-0 md:space-x-8 md:w-auto'>
           {/* logo */}
           <div className='relative flex flex-col justify-center flex-auto'>
@@ -51,13 +37,17 @@ export default function Hero() {
                 <p>Apply to hack</p>
               </a>
 
-              <div
-                onClick={() => window.open(sponsorDeck, '_blank')}
-                className='w-full md:w-40 bg-transparent border-2 border-[#8314C7] hover:border-[#5b0e8b] hover:text-[#5b0e8b] text-[#8314C7] drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center py-2 font-medium cursor-pointer'
+              <a
+                className='sm:w-auto w-full justify-center flex right-2 top-4 bg-[#4D9FEA] p-3 rounded-3xl gap-1 z-50 hover:bg-[#167abd] drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] font-medium'
+                href='https://twitter.com/ethereumrome'
+                target='_blank'
               >
-                { /* <Icon icon='mdi:twitter' className='text-2xl cursor-pointer' /> */ }
-                <p>Sponsor deck</p>
-              </div>
+                <Icon
+                    icon='mdi:twitter'
+                    className='text-2xl text-white cursor-pointer'
+                  />
+                  <h2 className='text-white'>Stay tuned</h2>
+              </a>
             </div>
           </div>
 

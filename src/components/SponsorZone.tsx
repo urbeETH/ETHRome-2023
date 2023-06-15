@@ -1,10 +1,9 @@
 import { FC } from 'react'
 import { PropsWithClassName } from '../types'
-import { sponsorDeck } from '../urls'
 
 export const SponsorDeckLink: FC<PropsWithClassName> = ({ className }) => (
-  <a href={sponsorDeck} target="_blank" className={className}>
-    <p>Sponsor deck</p>
+  <a href="mailto:sponsor@ethrome.org?subject=Request%20ETHRome%20Deck" target="_blank" className={className}>
+    <p>Request Sponsor deck</p>
   </a>
 )
 
@@ -21,9 +20,9 @@ export default function SponsorZone() {
           Seize the chance to gain exceptional exposure, establish valuable connections, and
           demonstrate your unwavering support for the development of the blockchain space!
         </p>
-        <SponsorDeckLink className='w-40 hover:bg-[#5b0e8b] transition-colors bg-[#8314C7] drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center text-white py-2 font-medium' />
+        <SponsorDeckLink className='hover:bg-[#5b0e8b] px-4 transition-colors bg-[#8314C7] drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center text-white py-2 font-medium' />
         <a
-          href='mailto:sponsor@ethrome.org'
+          href='mailto:sponsor@ethrome.org?subject=Request%20ETHRome%20Deck'
           className='text-[#F8FCFC] opacity-60 underline text-md'
         >
           sponsor@ethrome.org
