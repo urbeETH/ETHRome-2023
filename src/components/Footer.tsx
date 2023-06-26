@@ -8,7 +8,7 @@ export default function Footer() {
 
       <div className='flex items-center gap-8 px-8'>
         <Icon
-          onClick={() => window.open('https://twitter.com/ethereumrome', '_blank')}
+          onClick={() => window.open('https://twitter.com/ETHRome', '_blank')}
           icon='mdi:twitter'
           className='text-4xl text-white cursor-pointer'
         />
