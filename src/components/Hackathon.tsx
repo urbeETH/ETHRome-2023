@@ -11,7 +11,8 @@ export default function Hackathon() {
             <img src='/icon-spot-helmet-shield.svg' className='mb-2' />
             <h2 className='text-3xl text-rome-red font-bold'>Encryption Games</h2>
             <p className='text-center font-redhat'>
-              This track will challenge hackers to explore the full potential of all those technologies and{' '}
+              This track will challenge hackers to explore the full potential of all those
+              technologies and{' '}
               <span className='font-bold'>applications that prioritize privacy and security</span>.
             </p>
           </div>
@@ -19,9 +20,9 @@ export default function Hackathon() {
             <img src='/icon-spot-hero.svg' className='mb-2' />
             <h2 className='text-3xl text-rome-red font-bold'>DAOs & Dragons</h2>
             <p className='text-center font-redhat'>
-              Hackers will showcase their skills in implementing{' '}
+              Showcase your skills in implementing{' '}
               <span className='font-bold'>decentralized governance infrastructures</span> and
-              <span className='font-bold'> decision-making mechanisms</span>.
+              <span className='font-bold'> better decision-making mechanisms</span>.
             </p>
           </div>
         </div>

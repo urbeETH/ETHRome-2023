@@ -8,7 +8,8 @@ export default {
         rome: {
           'red': '#A81010',
           'purple': '#8314c7',
-          100: '#5b0e8b', /** ?? */
+          'yellow': '#FABB00',
+          'purple_hover': '#5b0e8b',
         }
       },
       height: {

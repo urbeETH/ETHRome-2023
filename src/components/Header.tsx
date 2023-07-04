@@ -45,16 +45,16 @@ export default function Header() {
       >
         <img src='/ethrome_logo.png' className='w-40' />
         <div className='flex items-center justify-center space-x-10 text-lg font-semibold'>
-          <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('intro')}>
+          <h3 className='relative underline_item cursor-pointer' onClick={() => scrollTo('intro')}>
             About
           </h3>
-          <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('hackathon')}>
+          <h3 className='relative underline_item cursor-pointer' onClick={() => scrollTo('hackathon')}>
             Tracks
           </h3>
-          <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('bounties')}>
+          <h3 className='relative underline_item cursor-pointer' onClick={() => scrollTo('bounties')}>
             Bounties
           </h3>
-          <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('contact')}>
+          <h3 className='relative underline_item cursor-pointer' onClick={() => scrollTo('contact')}>
             Sponsor Zone
           </h3>
         </div>

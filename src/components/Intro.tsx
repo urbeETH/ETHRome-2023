@@ -6,8 +6,8 @@ export default function Intro() {
     >
       <div className='flex flex-col items-center h-full px-8 space-y-12 justify-evenly md:space-y-0 md:px-0'>
         <h1 className='max-w-4xl text-4xl text-white md:text-6xl'>
-          The first Web3 international hackathon in the{' '}
-          <span className='font-black text-[#FABB00]'>ETHernal city</span>
+        The 1st ETHalian Hackathon{' '}
+          <span className='font-black text-rome-yellow'>crafted by builders, for builders</span>
         </h1>
         <div className='flex space-x-0 md:space-x-24'>
           <img src='/colosseum.svg' className='hidden lg:block' />
@@ -17,12 +17,11 @@ export default function Intro() {
               <img src='/icon-lecture.svg' className='absolute bottom-2 left-4' />
             </div>
             <p className='mt-2 ml-2 text-lg font-light text-white md:text-xl font-redhat'>
-              Join us to tackle web3 most pressing issues enhancing{' '}
-              <span className='font-bold'>Governance & Privacy preserving technologies</span>.
+            Unite with like-minded visionaries to empower{' '}
+              <span className='font-bold'>Governance & Privacy-preserving</span> technologies.
             </p>
             <p className='mt-2 ml-2 text-lg font-light text-white md:text-xl font-redhat'>
-              Come to meet <span className='font-bold'>ETHalian community</span> while getting
-              inspired by the historical beauty of Rome.
+            Address the most pressing <span className='font-bold'>challenges in Web3</span> while getting inspired by the historic splendour of Rome
             </p>
           </div>
         </div>
