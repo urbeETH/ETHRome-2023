@@ -6,8 +6,9 @@ export default {
     extend: {
       colors: {
         rome: {
-          50: '#8314c7',
-          100: '#5b0e8b',
+          'red': '#A81010',
+          'purple': '#8314c7',
+          100: '#5b0e8b', /** ?? */
         }
       },
       height: {

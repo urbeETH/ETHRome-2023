@@ -2,7 +2,7 @@ import ImageLink from './ImageLink'
 export default function Partners() {
   return (
     <div className='py-16 md:py-24 bg-[#EFEBE6] flex flex-col items-center justify-center'>
-      <h4 className='font-semibold text-black uppercase opacity-60'>Partners</h4>
+      <h4 className='font-semibold text-rome-red uppercase opacity-60'>Community Partners</h4>
       <div className='grid max-w-4xl grid-cols-2 px-8 py-16 md:grid-cols-4 gap-x-6 md:gap-x-16 place-items-center'>
         <ImageLink
           imagePath='/partners/logo-aragon.svg'

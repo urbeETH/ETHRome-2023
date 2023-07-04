@@ -2,7 +2,7 @@ import { Image } from './ImageLink'
 export default function Sponsors() {
   return (
     <div className='pt-16 md:pt-24 bg-[#EFEBE6] flex flex-col items-center justify-center'>
-      <h4 className='font-semibold text-black uppercase opacity-60'>Sponsors</h4>
+      <h4 className='font-semibold text-rome-purple uppercase opacity-60'>Sponsors</h4>
       {/* senator */}
       <div className='flex flex-col'>
         <Image

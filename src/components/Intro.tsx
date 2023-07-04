@@ -28,6 +28,7 @@ export default function Intro() {
         </div>
       </div>
       <div className='absolute right-12 bottom-12 md:bottom-12 md:right-24'>
+        <img className='absolute -top-8 -left-8 -scale-x-100 md:transform-none max-w-xl md:max-w-sm md:-top-24 md:-left-8' src="/splash_gray.png" alt="" />
         <div className='relative'>
           <div className='flex items-center justify-end space-x-2'>
             <p className='font-semibold text-white'>HOSTED BY</p>
