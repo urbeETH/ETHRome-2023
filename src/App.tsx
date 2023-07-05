@@ -2,6 +2,8 @@ import Hero from './components/Hero'
 import Intro from './components/Intro'
 import Hackathon from './components/Hackathon'
 import Bounties from './components/Bounties'
+import Venue from './components/Venue'
+import SideEvents from './components/SideEvents'
 import SponsorZone from './components/SponsorZone'
 import Header from './components/Header'
 import Partners from './components/Partners'
@@ -17,6 +19,8 @@ function App() {
         <Intro />
         <Hackathon />
         <Bounties />
+        <Venue />
+        <SideEvents />
         <SponsorZone />
         <Sponsors />
         <Partners />
