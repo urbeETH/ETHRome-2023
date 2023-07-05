@@ -3,9 +3,9 @@ export default function SideEvents() {
     <div className='h-auto py-24 2xl:py-0 xl:h-screen relative bg-[#EFEBE6]' id='sideEvents'>
       <div className='flex flex-col items-center justify-center h-full space-y-24'>
         <div className='flex flex-col items-center justify-center'>
-          <h1 className='text-7xl max-w-4xl text-rome-red text-center font-bold'>Side Events</h1>
+          <h1 className='text-7xl w-4/5 md:w-full md:max-w-4xl text-rome-red text-center font-bold'>Side Events</h1>
         </div>
-        <div className='w-2/4 text-rome-red text-center font-redhat space-y-4'>
+        <div className=' w-4/5 md:w-2/4 text-rome-red text-center font-redhat space-y-4'>
           Side events offer a dynamic platform for participants, communities, and sponsors to derive additional value and engagement beyond the core hackathon experience. These events serve as catalysts for networking, learning, and fostering collaboration.
         </div>
         <div className='flex flex-col items-center w-4/5 space-y-8 md:flex-row md:items-start justify-evenly md:space-y-0'>
@@ -13,7 +13,8 @@ export default function SideEvents() {
             <div className='flex justify-center items-center w-full h-52 '>
               <img src="/side-events_urbetalks.png" alt="" />
             </div>
-            <h2 className='text-3xl text-rome-red text-center font-bold'>Wed 4th Oct • Talent Garden Ostiense</h2>
+            <h2 className='text-3xl text-rome-red text-center font-bold'>Wed 4th Oct</h2>
+            <h2 className='text-3xl text-rome-red text-center font-bold'>Talent Garden Ostiense</h2>
             <p className='text-center font-redhat'>
             Urbe.eth monthly meetup hosting 4 speakers delving into various topics
             </p>
@@ -22,7 +23,8 @@ export default function SideEvents() {
             <div className='flex justify-center items-center w-full h-52 '>
              <img src="/side-events_web3privacy.png" alt="" />
             </div>
-            <h2 className='text-3xl text-rome-red font-bold text-center'>Thu 5th Oct • Villaggio Globale</h2>
+            <h2 className='text-3xl text-rome-red font-bold text-center'>Thu 5th Oct</h2>
+            <h2 className='text-3xl text-rome-red font-bold text-center'>Villaggio Globale</h2>
             <p className='text-center font-redhat'>
             Global privacy advocates converge to mainstream privacy in Web3.
             </p>
