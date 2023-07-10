@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import {Link} from 'react-router-dom'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -43,7 +44,7 @@ export default function Header() {
       <div
         className={`hidden md:flex items-center justify-between px-16 py-4 fixed w-full z-50 ${headerBackground}`}
       >
-        <img src='/ethrome_logo.png' className='w-40' />
+        <Link to='/'><img src='/ethrome_logo.png' className='w-40' /></Link>
         <div className='flex items-center justify-center space-x-10 text-lg font-semibold'>
           <h3 className='relative underline_item cursor-pointer' onClick={() => scrollTo('intro')}>
             About
