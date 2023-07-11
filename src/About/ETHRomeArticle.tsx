@@ -1,5 +1,5 @@
 import ArticleHeader from './ArticleHeader'
-import Colosseum from '../components/Colosseum'
+import Footer from '../components/Footer'
 
 export default function Article() {
   return (
@@ -13,12 +13,11 @@ export default function Article() {
           <div className='flex flex-col items-center h-full px-8 space-y-12 justify-evenly md:space-y-0 p-4'>
             <div className='flex flex-col items-center justify-center'>
               <h1 className='max-w-5xl text-4xl text-white md:text-6xl mb-8 mt-8'>ETHRome 2023</h1>
-              <h1 className='max-w-5xl text-4xl text-white md:text-6xl'>
+              <h1 className='max-w-5xl text-4xl text-white text-center md:text-6xl'>
                 The 1st ETHalian Hackathon{' '}
-                <span className='font-black text-rome-yellow'>crafted</span>
               </h1>
-              <h1 className=' w-full max-w-5xl text-4xl font-black text-left text-rome-yellow md:text-6xl mb-8'>
-                by builders, for builders
+              <h1 className=' w-full max-w-5xl text-4xl font-black text-left text-rome-yellow text-center md:text-6xl mb-8'>
+              crafted by builders, for builders
               </h1>
             </div>
             <div className='flex md:w-3/4 space-x-0 md:space-x-24 justify-between text-justify'>
@@ -93,7 +92,10 @@ export default function Article() {
                 </div>
                 <p className='text-lg font-light text-white md:text-xl font-redhat text-center'>
                   Most of Urbe&apos;s lead Devs are regular attendees of large conferences and
-                  hackathons worldwide, hence the idea: why not organize one in Rome?
+                  hackathons worldwide, hence the idea:
+                </p>
+                <p className='text-xl font-black text-white md:text-2xl font-redhat text-center'>
+                why not organize one in Rome?
                 </p>
                 <div className='w-full flex justify-center mt-8 mb-8'>
                   <img className='w-4/6 md:w-1/6' src='/ethrome_logo_article.svg' alt='' />
@@ -132,7 +134,7 @@ export default function Article() {
             </div>
           </div>
         </div>
-        <Colosseum />
+        <Footer />
       </div>
     </>
   )

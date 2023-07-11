@@ -17,7 +17,7 @@ const router = createBrowserRouter([
   },
 
   {
-    path: '/article',
+    path: '/about',
     element: <ETHRomeArticle />,
   },
 ]);
