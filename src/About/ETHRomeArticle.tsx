@@ -32,7 +32,7 @@ export default function Article() {
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
                   This important statement is the center of the{' '}
-                  <span className='underline'>Declaration of Independence of Cyberspace </span>
+                  <a className='underline' href='https://www.eff.org/cyberspace-independence' target='_blank'>Declaration of Independence of Cyberspace </a>
                   written by John Perry Barlow in 1996.
                 </p>
                 <div className='w-full flex justify-center mt-8 mb-8'>
@@ -50,7 +50,7 @@ export default function Article() {
                   generated from this data would be redistributed back to the society and the
                   individuals who provided it.
                 </p>
-                <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
+                <p className='text-lg font-bold text-black md:text-xl font-redhat mt-2'>
                   This is the chronicle of our era which we are already well-acquainted with.
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
@@ -67,8 +67,8 @@ export default function Article() {
                   “For the first time in history, we need not revolt against a system of violent
                   legal enforcement. We can abandon it for openly verifiable mathematics, which we
                   subscribe to by acts of our own volition. This is because, in the world wide web,
-                  running code is more powerful than holding elections.” - Andy Tudhope,{' '}
-                  <span className='underline'> Kernel Community</span>{' '}
+                  running code is more powerful than holding elections.” - Andy Tudhope,
+                  <a className='underline' href='https://www.kernel.community/en/' target='_blank'> Kernel Community</a>
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
                   In the last 30 years, Barrow&apos;s vision and Cypherpunks&apos; insights have
@@ -76,7 +76,7 @@ export default function Article() {
                   legacy informed by a bottom-up and collaborative approach.
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
-                  <span className='underline'>Interdependence </span> and interoperability are the
+                <a className='underline' href='https://www.interdependence.online/about' target='_blank'>Interdependence</a> and interoperability are the
                   foundational concepts upon which a distinct future is being crafted for the web,
                   and optimistically, for the entire societal framework.
                 </p>
@@ -91,18 +91,15 @@ export default function Article() {
                 <p className='text-lg font-light text-black md:text-xl font-redhat'>
                   In this whirlwind of technologies, ideas, and initiatives, in May 2022 a group of
                   devs based in Rome and with a particular interest in Web3 and decentralization,
-                  launched <span className='underline'>urbe.eth</span>.
+                  launched <a className='underline' href='https://linktr.ee/urbe.eth' target='_blank'>urbe.eth</a>.
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
                   The community was initiated as a Discord channel for Roman Web3 enthusiasts and
                   commenced to host monthly gatherings where experts on decentralization and
-                  open-source initiatives could <span className='underline'>share insights</span>{' '}
+                  open-source initiatives could <a className='underline' href='https://www.youtube.com/channel/UC15_amrqg-rAKHlH8eYGD2Q' target='_blank'>share insights</a>
                   and delineate pathways.
                 </p>
-                <div className='w-full flex justify-center mt-8 mb-8'>
-                  <img src='/about/UrbeTalkArticle.jpg' alt='' />
-                </div>
-                <p className='text-lg font-light text-black md:text-xl font-redhat'>
+                <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
                   Summoning periodically at co-workings and pubs, Urbe&apos;s numbers began to
                   increase, reaching over 500 people on Discord, +2k on Twitter and 30 to 50
                   attending regular IRL meetups. At this point, the next progression was inevitable.
@@ -127,8 +124,8 @@ export default function Article() {
                   connection between the past, present, and future, serving as an effective metaphor
                   for how Urbe.eth approaches the development of Web3.
                 </p>
-                <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
-                  ETHRome aspires to confirm that collective intelligence and collaborative effort
+                <p className='text-lg font-bold text-black md:text-xl font-redhat mt-2'>
+                <a className='underline' href='https://ethrome.org/' target='_blank'>ETHRome</a> aspires to confirm that collective intelligence and collaborative effort
                   can fuel meaningful and effective solutions. By designing robust incentive
                   frameworks and supporting novel governance models, we aim to defend and elevate
                   individual rights, confront current challenges within digital networks, and
@@ -152,7 +149,7 @@ export default function Article() {
                   the world to combine cryptography, tokens, and peer-to-peer networks for the
                   better of cyberspace and the respect of human rights.
                 </p>
-                <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
+                <p className='text-lg font-bold text-black md:text-xl font-redhat mt-2'>
                   To have an impact and avoid the same mistakes we did with web2, we do not need
                   just superior technology, but also and foremost more willful participation.
                 </p>
