@@ -7,7 +7,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom';
-import ETHRomeArticle from './Article/ETHRomeArticle'
+import ETHRomeArticle from './About/ETHRomeArticle'
 
 
 const router = createBrowserRouter([
