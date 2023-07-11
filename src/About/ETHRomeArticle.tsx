@@ -13,7 +13,7 @@ export default function Article() {
           <div className='flex flex-col items-center h-full px-8 space-y-12 justify-evenly p-4'>
             <div className='flex flex-col items-center justify-center'>
               <h1 className='max-w-5xl text-4xl text-black md:text-6xl mb-8 mt-8'>ETHRome 2023</h1>
-              <h1 className='max-w-5xl text-4xl text-black text-center md:text-6xl'>
+              <h1 className='max-w-5xl text-4xl text-black font-bold text-center md:text-6xl'>
                 The 1st ETHalian Hackathon{' '}
               </h1>
               <h1 className=' w-full max-w-5xl text-4xl font-black text-left text-rome-yellow text-center md:text-6xl mb-8'>
@@ -32,7 +32,13 @@ export default function Article() {
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
                   This important statement is the center of the{' '}
-                  <a className='underline' href='https://www.eff.org/cyberspace-independence' target='_blank'>Declaration of Independence of Cyberspace </a>
+                  <a
+                    className='underline'
+                    href='https://www.eff.org/cyberspace-independence'
+                    target='_blank'
+                  >
+                    Declaration of Independence of Cyberspace{' '}
+                  </a>
                   written by John Perry Barlow in 1996.
                 </p>
                 <div className='w-full flex justify-center mt-8 mb-8'>
@@ -67,8 +73,18 @@ export default function Article() {
                   “For the first time in history, we need not revolt against a system of violent
                   legal enforcement. We can abandon it for openly verifiable mathematics, which we
                   subscribe to by acts of our own volition. This is because, in the world wide web,
-                  running code is more powerful than holding elections.” - Andy Tudhope,
-                  <a className='underline' href='https://www.kernel.community/en/' target='_blank'> Kernel Community</a>
+                  running code is more powerful than holding elections.”{' '}
+                  <span className='normal'>
+                    - Andy Tudhope,
+                    <a
+                      className='underline'
+                      href='https://www.kernel.community/en/'
+                      target='_blank'
+                    >
+                      {' '}
+                      Kernel Community
+                    </a>
+                  </span>
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
                   In the last 30 years, Barrow&apos;s vision and Cypherpunks&apos; insights have
@@ -76,9 +92,15 @@ export default function Article() {
                   legacy informed by a bottom-up and collaborative approach.
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
-                <a className='underline' href='https://www.interdependence.online/about' target='_blank'>Interdependence</a> and interoperability are the
-                  foundational concepts upon which a distinct future is being crafted for the web,
-                  and optimistically, for the entire societal framework.
+                  <a
+                    className='underline'
+                    href='https://www.interdependence.online/about'
+                    target='_blank'
+                  >
+                    Interdependence
+                  </a>{' '}
+                  and interoperability are the foundational concepts upon which a distinct future is
+                  being crafted for the web, and optimistically, for the entire societal framework.
                 </p>
               </div>
             </div>
@@ -91,12 +113,23 @@ export default function Article() {
                 <p className='text-lg font-light text-black md:text-xl font-redhat'>
                   In this whirlwind of technologies, ideas, and initiatives, in May 2022 a group of
                   devs based in Rome and with a particular interest in Web3 and decentralization,
-                  launched <a className='underline' href='https://linktr.ee/urbe.eth' target='_blank'>urbe.eth</a>.
+                  launched{' '}
+                  <a className='underline' href='https://linktr.ee/urbe.eth' target='_blank'>
+                    urbe.eth
+                  </a>
+                  .
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
                   The community was initiated as a Discord channel for Roman Web3 enthusiasts and
                   commenced to host monthly gatherings where experts on decentralization and
-                  open-source initiatives could <a className='underline' href='https://www.youtube.com/channel/UC15_amrqg-rAKHlH8eYGD2Q' target='_blank'>share insights</a>
+                  open-source initiatives could{' '}
+                  <a
+                    className='underline'
+                    href='https://www.youtube.com/channel/UC15_amrqg-rAKHlH8eYGD2Q'
+                    target='_blank'
+                  >
+                    share insights
+                  </a>{' '}
                   and delineate pathways.
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
@@ -115,7 +148,11 @@ export default function Article() {
                   why not organize one in Rome?
                 </p>
                 <div className='w-full flex justify-center mt-8 mb-8'>
-                  <img className='w-4/6 md:w-1/6' src='/about/ethrome_logo_black_article.svg' alt='' />
+                  <img
+                    className='w-4/6 md:w-1/6'
+                    src='/about/ethrome_logo_black_article.svg'
+                    alt=''
+                  />
                 </div>
                 <p className='text-lg font-light text-black md:text-xl font-redhat'>
                   With its unique allure, Rome provides an idyllic backdrop for any event. Its
@@ -125,11 +162,14 @@ export default function Article() {
                   for how Urbe.eth approaches the development of Web3.
                 </p>
                 <p className='text-lg font-bold text-black md:text-xl font-redhat mt-2'>
-                <a className='underline' href='https://ethrome.org/' target='_blank'>ETHRome</a> aspires to confirm that collective intelligence and collaborative effort
-                  can fuel meaningful and effective solutions. By designing robust incentive
-                  frameworks and supporting novel governance models, we aim to defend and elevate
-                  individual rights, confront current challenges within digital networks, and
-                  guarantee that all stakeholders are protagonists at each stage.
+                  <a className='underline' href='https://ethrome.org/' target='_blank'>
+                    ETHRome
+                  </a>{' '}
+                  aspires to confirm that collective intelligence and collaborative effort can fuel
+                  meaningful and effective solutions. By designing robust incentive frameworks and
+                  supporting novel governance models, we aim to defend and elevate individual
+                  rights, confront current challenges within digital networks, and guarantee that
+                  all stakeholders are protagonists at each stage.
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
                   In line with the spirit of Urbe, ETHRome&apos;s goal is to cultivate a fertile
