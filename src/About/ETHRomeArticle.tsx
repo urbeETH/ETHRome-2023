@@ -41,7 +41,7 @@ export default function Article() {
                   </a>
                   written by John Perry Barlow in 1996.
                 </p>
-                <div className='w-full flex justify-center mt-8 mb-8'>
+                <div className='w-full flex justify-center my-8'>
                   <img src='/about/article_1_img.jpg' alt='' />
                 </div>
                 <p className='text-lg font-light text-black md:text-xl font-redhat'>
@@ -137,7 +137,7 @@ export default function Article() {
                   increase, reaching over 500 people on Discord, +2k on Twitter and 30 to 50
                   attending regular IRL meetups. At this point, the next progression was inevitable.
                 </p>
-                <div className='w-full flex justify-center mt-8 mb-8'>
+                <div className='w-full flex justify-center my-8'>
                   <img src='/about/UrbeDelegationArticle.jpg' alt='' />
                 </div>
                 <p className='text-lg font-light text-black md:text-xl font-redhat text-center'>
@@ -147,7 +147,7 @@ export default function Article() {
                 <p className='text-xl font-black text-black md:text-2xl font-redhat text-center'>
                   why not organize one in Rome?
                 </p>
-                <div className='w-full flex justify-center mt-8 mb-8'>
+                <div className='w-full flex justify-center my-8'>
                   <img
                     className='w-4/6 md:w-1/6'
                     src='/about/ethrome_logo_black_article.svg'
@@ -177,7 +177,7 @@ export default function Article() {
                   impart knowledge, build systems and evaluate their long-term feasibility.
                   Together, and guided by highly experienced mentors.
                 </p>
-                <div className='w-full flex justify-center mt-8 mb-8'>
+                <div className='w-full flex justify-center my-8'>
                   <img src='/about/slideArticle.png' alt='' />
                 </div>
                 <p className='text-lg font-light text-black md:text-xl font-redhat'>

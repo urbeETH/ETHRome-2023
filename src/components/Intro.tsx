@@ -30,7 +30,7 @@ export default function Intro() {
               Address the most pressing <span className='font-bold'>challenges in Web3</span> while
               getting inspired by the historic splendour of Rome
             </p>
-            <Link to='/about' className='w-full md:w-48 bg-white hover:bg-[#191818] hover:text-white transition-colors rounded-full flex items-center justify-center text-black p-2 font-medium border-2 border-white mt-8' >Read the Full Story</Link>
+            <Link to='/about' target="_blank" className='w-full md:w-48 bg-white hover:bg-[#191818] hover:text-white transition-colors rounded-full flex items-center justify-center text-black p-2 font-medium border-2 border-white mt-8' >Read the Full Story</Link>
           </div>
         </div>
       </div>
