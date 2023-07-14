@@ -31,33 +31,33 @@ export default function Article() {
                   decisions.
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
-                  This important statement is the center of the{' '}
+                  This statement is the center of the{' '}
                   <a
                     className='underline'
                     href='https://www.eff.org/cyberspace-independence'
                     target='_blank'
                   >
-                    Declaration of Independence of Cyberspace{' '}
+                    Declaration of Independence of Cyberspace
                   </a>
-                  written by John Perry Barlow in 1996.
+                  {' '}written by John Perry Barlow in 1996.
                 </p>
                 <div className='w-full flex justify-center my-8'>
                   <img src='/about/article_1_img.jpg' alt='' />
                 </div>
                 <p className='text-lg font-light text-black md:text-xl font-redhat'>
-                  Time has witnessed colossal shifts since then, and Barlow&apos;s guiding
+                  Time has witnessed colossal shifts since 1996, and Barlow&apos;s guiding
                   principles, once envisaged as the cornerstone of Web 2.0, have been overshadowed
                   by an unprecedented wave of centralisation.
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
-                  Technological behemoths have arisen, feasting on free data provided by the users
-                  and transacted without proper safeguards. There are indeed no clear rules on how
-                  the data would be managed and the right to privacy protected, or how any wealth
-                  generated from this data would be redistributed back to the society and the
-                  individuals who provided it.
+                  Huge technological monopolies have arisen, feasting on free data provided by users
+                  and transacting without proper safeguards. there are no clear rules on how the
+                  data would be managed and the privacy protected, or how wealth generated from this
+                  data would be redistributed back to the society and the individuals that provided
+                  it.
                 </p>
                 <p className='text-lg font-bold text-black md:text-xl font-redhat mt-2'>
-                  This is the chronicle of our era which we are already well-acquainted with.
+                  These are the chronicles of our era which we are already well-acquainted with.
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
                   Digital behemoths have become unquenchably greedy, creating walled environments in
@@ -89,7 +89,7 @@ export default function Article() {
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
                   In the last 30 years, Barrow&apos;s vision and Cypherpunks&apos; insights have
                   been revised and revitalized, morphing into a shared and continuously evolving
-                  legacy informed by a bottom-up and collaborative approach.
+                  legacy informed by a bottom-up collaborative approach.
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
                   <a
@@ -130,10 +130,10 @@ export default function Article() {
                   >
                     share insights
                   </a>{' '}
-                  and delineate pathways.
+                  and initiate conversations.
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
-                  Summoning periodically at co-workings and pubs, Urbe&apos;s numbers began to
+                  Meeting periodically at co-workings and pubs, Urbe&apos;s numbers began to
                   increase, reaching over 500 people on Discord, +2k on Twitter and 30 to 50
                   attending regular IRL meetups. At this point, the next progression was inevitable.
                 </p>
@@ -155,11 +155,12 @@ export default function Article() {
                   />
                 </div>
                 <p className='text-lg font-light text-black md:text-xl font-redhat'>
-                  With its unique allure, Rome provides an idyllic backdrop for any event. Its
-                  architectural marvels and sumptuous cuisine are the perfect framework for
-                  delightful interludes. The city&apos;s millennia-old history weaves a vital
-                  connection between the past, present, and future, serving as an effective metaphor
-                  for how Urbe.eth approaches the development of Web3.
+                  With its unique allure, Rome provides an idyllic backdrop for any
+                  event.Conversations flow easy when you&apos;re watching a sunset over the capitol hills
+                  with a glass of wine, waiting for your plate of carbonara to arrive. The
+                  city&apos;s millennia-old history weaves a vital connection between the past,
+                  present, and future, serving as an effective metaphor for how Urbe.eth approaches
+                  the development of Web3.
                 </p>
                 <p className='text-lg font-bold text-black md:text-xl font-redhat mt-2'>
                   <a className='underline' href='https://ethrome.org/' target='_blank'>
@@ -181,17 +182,17 @@ export default function Article() {
                   <img src='/about/slideArticle.png' alt='' />
                 </div>
                 <p className='text-lg font-light text-black md:text-xl font-redhat'>
-                  The parts of the crypto space that are honorable are those that actually stay true
-                  to its core principles of decentralization, privacy, openness, and transparency.
+                  The parts of crypto space that are honorable are the ones that are true to
+                  principles of decentralization, privacy and transparency.
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
                   We intend to pursue and uphold these values by summoning key people from all over
-                  the world to combine cryptography, tokens, and peer-to-peer networks for the
-                  better of cyberspace and the respect of human rights.
+                  the world to combine cryptography, tokens, and peer-to-peer networks for a better
+                  cyberspace, hence respecting human rights.
                 </p>
                 <p className='text-lg font-bold text-black md:text-xl font-redhat mt-2'>
                   To have an impact and avoid the same mistakes we did with web2, we do not need
-                  just superior technology, but also and foremost more willful participation.
+                  just superior technology, but more importantly, active and willful participation.
                 </p>
                 <p className='text-lg font-light text-black md:text-xl font-redhat mt-2'>
                   The web3 stack alone will not empower us as individuals and as a society: it is on
