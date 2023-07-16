@@ -6356,6 +6356,7 @@ __metadata:
     prettier: ^2.8.4
     react: ^18.2.0
     react-dom: ^18.2.0
+    react-fast-marquee: ^1.6.0
     react-router-dom: ^6.14.1
     react-scripts: 5.0.1
     react-toggle-dark-mode: ^1.1.1
@@ -11197,6 +11198,16 @@ __metadata:
   version: 6.0.11
   resolution: "react-error-overlay@npm:6.0.11"
   checksum: ce7b44c38fadba9cedd7c095cf39192e632daeccf1d0747292ed524f17dcb056d16bc197ddee5723f9dd888f0b9b19c3b486c430319e30504289b9296f2d2c42
+  languageName: node
+  linkType: hard
+
+"react-fast-marquee@npm:^1.6.0":
+  version: 1.6.0
+  resolution: "react-fast-marquee@npm:1.6.0"
+  peerDependencies:
+    react: ">= 16.8.0 || 18.0.0"
+    react-dom: ">= 16.8.0 || 18.0.0"
+  checksum: f448341d30ef417292d8f7618d4931190a6d4aa353fbd276da4dcecc49bb6a7a32962f9cc74fe0af2ea9617d7b453ed3efccf7a0e8709a8b66e04ec04f4ae18c
   languageName: node
   linkType: hard
 
