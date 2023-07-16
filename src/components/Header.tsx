@@ -25,7 +25,7 @@ export default function Header() {
 
   const changeHeaderBackground = () => {
     if (window.scrollY > 100) {
-      setHeaderBackground('bg-[#FFFFFF] rounded-b-xl shadow-lg')
+      setHeaderBackground('bg-white/30 backdrop-blur-md rounded-b-xl shadow-lg')
     } else {
       setHeaderBackground('bg-[#EFEBE6]')
     }
