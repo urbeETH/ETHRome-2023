@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom'
+import ColosseumIntro from './svg/ColosseumIntro'
 
 export default function Intro() {
   return (
@@ -16,7 +17,7 @@ export default function Intro() {
           </h1>
         </div>
         <div className='flex space-x-0 md:space-x-24'>
-          <img src='/colosseum.svg' className='hidden lg:block' />
+          <ColosseumIntro />
           <div className='flex flex-col max-w-xs'>
             <div className='relative'>
               <img src='/splash_yellow.png' />

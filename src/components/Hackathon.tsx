@@ -1,3 +1,5 @@
+import SpotHelmetShield from './svg/SpotHelmetShield'
+
 export default function Hackathon() {
   return (
     <div className='h-auto py-24 md:py-0 md:h-screen relative bg-[#EFEBE6]' id='hackathon'>
