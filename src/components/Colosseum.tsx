@@ -1,5 +1,4 @@
 import Footer from './Footer'
-import ColosseumFooter from './svg/ColosseumFooter'
 
 export default function Colosseum() {
   return (
