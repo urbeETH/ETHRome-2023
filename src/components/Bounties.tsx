@@ -1,3 +1,5 @@
+import CoinsBounties from './animations/CoinsBounties'
+
 export default function Bounties() {
   return (
     <div
@@ -18,8 +20,7 @@ export default function Bounties() {
           <span className='font-bold text-[#FABB00]'>earn thrilling rewards.</span>
         </h2>
       </div>
-
-      <img src='/coins_right.svg' className='absolute bottom-0 right-0 hidden h-48 xl:block' />
+      <CoinsBounties />
       <img
         src='/coins_right_mobile.svg'
         className='absolute z-0 block -translate-x-1/2 -bottom-4 left-1/2 right-1/2 md:hidden'

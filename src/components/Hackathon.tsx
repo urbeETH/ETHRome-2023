@@ -1,5 +1,5 @@
-import SpotHelmetShield from './svg/SpotHelmetShield'
-import SpotHero from './svg/SpotHero'
+import SpotHelmetShield from './animations/svg/SpotHelmetShield'
+import SpotHero from './animations/svg/SpotHero'
 
 export default function Hackathon() {
   return (

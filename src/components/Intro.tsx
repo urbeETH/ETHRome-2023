@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import ColosseumIntro from './svg/ColosseumIntro'
+import ColosseumIntro from './animations/svg/ColosseumIntro'
 
 export default function Intro() {
   return (
