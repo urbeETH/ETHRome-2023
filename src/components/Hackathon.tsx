@@ -1,4 +1,5 @@
 import SpotHelmetShield from './svg/SpotHelmetShield'
+import SpotHero from './svg/SpotHero'
 
 export default function Hackathon() {
   return (
@@ -10,7 +11,7 @@ export default function Hackathon() {
         </div>
         <div className='flex flex-col items-center w-full space-y-8 md:flex-row md:items-start justify-evenly md:space-y-0'>
           <div className='flex flex-col items-center max-w-xs space-y-2'>
-            <img src='/icon-spot-helmet-shield.svg' className='mb-2' />
+            <SpotHelmetShield />
             <h2 className='text-3xl text-rome-red font-bold'>Encryption Games</h2>
             <p className='text-center font-redhat'>
               This track will challenge hackers to explore the full potential of all those
@@ -19,7 +20,7 @@ export default function Hackathon() {
             </p>
           </div>
           <div className='flex flex-col items-center max-w-xs space-y-4'>
-            <img src='/icon-spot-hero.svg' className='mb-2' />
+            <SpotHero />
             <h2 className='text-3xl text-rome-red font-bold'>DAOs & Dragons</h2>
             <p className='text-center font-redhat'>
               Showcase your skills in implementing{' '}

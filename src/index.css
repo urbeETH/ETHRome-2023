@@ -49,9 +49,67 @@ code {
   transition-timing-function: linear;
 }
 
+#spotShield{
+  animation-name: spotShieldSlide;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition-timing-function: linear;
+}
+
+#spotHelmet{
+  animation-name: spotHelmetSlide;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transition-timing-function: linear;
+  animation-direction: alternate;
+  transform-origin: 196px 81px;
+}
+
+#spotHeroShield{
+  animation-name: spotHeroShieldSlide;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transition-timing-function: linear;
+  animation-direction: alternate;
+}
+
+#spotHeroArm{
+  animation-name: spotHeroArmSlide;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transition-timing-function: linear;
+  animation-direction: alternate;
+  transform-origin: 76px 30px;
+}
+
+#spotHeroLegRight{
+  animation-name: spotHeroLegRightSlide;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transition-timing-function: linear;
+  animation-direction: alternate;
+  transform-origin: 69px 93px;
+}
+
+#spotHeroLegLeft{
+  animation-name: spotHeroLegLeftSlide;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transition-timing-function: linear;
+  animation-direction: alternate;
+  transform-origin: 80px 94px;
+}
+
 /**
 * Animations
 **/
+
+/*
+* About
+*/
+
+/*Colosseum Intro Cloud*/
 
 @keyframes colosseumCloudSlide{
   from{
@@ -61,3 +119,67 @@ code {
     transform: translateX(40px);
   }
 }
+
+/*
+* Tracks
+*/
+
+/*Spot Helment Shield*/
+
+@keyframes spotShieldSlide{
+  from{
+    transform: translate(0, 0);
+  }
+  to{
+    transform: translate(7px, -3px);
+  }
+}
+
+@keyframes spotHelmetSlide{
+  from{
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(-3deg);
+  }
+}
+
+/*Spot Hero*/
+
+@keyframes spotHeroShieldSlide{
+  from{
+    transform: translate(0, 0) rotate(0);
+  }
+  to{
+    transform: translate(-8px, -4px) rotate(2deg);
+  }
+}
+
+@keyframes spotHeroArmSlide{
+  from{
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(-12deg);
+  }
+}
+
+@keyframes spotHeroLegRightSlide{
+  from{
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(7deg);
+  }
+}
+
+@keyframes spotHeroLegLeftSlide{
+  from{
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(-13deg);
+  }
+}
+
+

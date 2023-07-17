@@ -1,6 +1,6 @@
 export default function SideEvents() {
   return (
-    <div className='h-auto py-24 2xl:py-0 xl:h-screen relative bg-[#EFEBE6]' id='sideEvents'>
+    <div className='h-auto py-24 relative bg-[#EFEBE6]' id='sideEvents'>
       <div className='flex flex-col items-center justify-center h-full '>
         <div className='flex flex-col items-center justify-center'>
           <div className=' w-4/5 md:w-2/4 text-rome-red text-center font-redhat '>
