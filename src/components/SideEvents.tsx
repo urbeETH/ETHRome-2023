@@ -28,7 +28,7 @@ export default function SideEvents() {
               href='https://www.google.com/maps/place/Talent+Garden/@41.8677736,12.4791516,15z/data=!4m6!3m5!1s0x13258ba9447f0e9b:0x90bad870b8cb289e!8m2!3d41.8677736!4d12.4791516!16s%2Fg%2F11h12sbnbn?entry=ttu'
               target='_blank'
             >
-              <div className='relative flex flex-col md:flex-row items-center justify-center underline_item'>
+              <div className='relative flex flex-col 2xl:flex-row items-center justify-center underline_item'>
                 <h2 className='text-2xl text-rome-red text-center font-bold'>Wed 4th Oct,</h2>
                 <h2 className='text-2xl text-rome-red text-center font-bold md:pl-1'>
                   Talent Garden Ostiense
@@ -56,7 +56,7 @@ export default function SideEvents() {
               href='https://www.google.com/maps/place/Villaggio+Globale/@41.8741306,12.4719822,15z/data=!4m6!3m5!1s0x132f60300ef3b2b3:0xefe2660fd385fd0f!8m2!3d41.8741306!4d12.4719822!16s%2Fg%2F11fnwh3zv1?entry=ttu'
               target='_blank'
             >
-              <div className='relative flex flex-col md:flex-row items-center justify-center underline_item'>
+              <div className='relative flex flex-col 2xl:flex-row items-center justify-center underline_item'>
                 <h2 className='text-2xl text-rome-red text-center font-bold'>Thu 5th Oct,</h2>
                 <h2 className='text-2xl text-rome-red text-center font-bold md:pl-1'>
                   Villaggio Globale

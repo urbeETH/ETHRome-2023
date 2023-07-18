@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom'
 import ColosseumIntro from './animations/svg/ColosseumIntro'
+import LectureIntro from './animations/svg/LectureIntro'
 
 export default function Intro() {
   return (
@@ -21,7 +22,7 @@ export default function Intro() {
           <div className='flex flex-col max-w-xs'>
             <div className='relative'>
               <img src='/splash_yellow.png' />
-              <img src='/icon-lecture.svg' className='absolute bottom-2 left-4' />
+              <LectureIntro />
             </div>
             <p className='mt-2 ml-2 text-lg font-light text-white md:text-xl font-redhat'>
               Unite with like-minded visionaries to empower{' '}
