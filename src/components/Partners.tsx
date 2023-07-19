@@ -6,7 +6,7 @@ export default function Partners() {
   return (
     <div className='py-16 md:py-24 bg-[#EFEBE6] flex flex-col items-center justify-center'>
       <h4 className='font-semibold text-rome-red uppercase opacity-60'>Community Partners</h4>
-        <Marquee className='px-8 pt-16 pb-8 md:py-16' pauseOnHover speed={40} >
+        <Marquee className='px-8 pt-16 pb-8 md:py-16' pauseOnHover speed={60} >
           <ImageLink
             imagePath='/partners/logo-aragon.svg'
             url='https://research.aragon.org/'
@@ -44,7 +44,7 @@ export default function Partners() {
             alt='Logo Ledger'
           />
         </Marquee>
-        <Marquee className='px-8 pt-8 md:py-16' pauseOnHover  direction='right' speed={40} >
+        <Marquee className='px-8 pt-8 md:py-16' pauseOnHover speed={60} direction='right'>
           <ImageLink
             imagePath='/partners/logo-lunardao.svg'
             url='https://lunardao.net/'
