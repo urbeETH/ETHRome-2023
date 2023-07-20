@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function ArticleHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -25,7 +25,7 @@ export default function ArticleHeader() {
 
   const changeHeaderBackground = () => {
     if (window.scrollY > 100) {
-      setHeaderBackground('bg-[#FFFFFF] rounded-b-xl shadow-lg')
+      setHeaderBackground('bg-white/30 backdrop-blur-md rounded-b-xl shadow-lg')
     } else {
       setHeaderBackground('bg-[#EFEBE6]')
     }
@@ -42,16 +42,64 @@ export default function ArticleHeader() {
   return (
     <>
       <div
-        className={`hidden md:flex items-center justify-center px-16 py-4 fixed w-full z-50 ${headerBackground}`}
+        className={`hidden md:flex items-center justify-between px-16 py-4 fixed w-full z-50 ${headerBackground}`}
       >
-        <Link to='/'><img src='/ethrome_logo.png' className='w-40' /></Link>
+        <Link to='/'>
+          <img src='/ethrome_logo.png' className='w-40' />
+        </Link>
+        <div className='flex items-center justify-center space-x-10 text-lg font-semibold'>
+          <h3 className='relative underline_item cursor-pointer' onClick={() => scrollTo('vision')}>
+            Vision
+          </h3>
+          <h3
+            className='relative underline_item cursor-pointer'
+            onClick={() => scrollTo('urbeImg')}
+          >
+            Urbe.eth
+          </h3>
+          <h3
+            className='relative underline_item cursor-pointer'
+            onClick={() => scrollTo('ethrome')}
+          >
+            ETHRome
+          </h3>
+        </div>
       </div>
       <div
         className={`flex flex-col md:hidden px-4 py-4 fixed w-full ${headerBackground} transition-colors z-50`}
       >
-        <div className={'flex items-center justify-center'}>
-        <Link to='/'><img src='/ethrome_logo.png' className='w-40' /></Link>
+        <div className={'flex items-center justify-between'}>
+          <Link to='/'>
+            <img src='/ethrome_logo.png' className='w-40' />
+          </Link>
+          <img
+            src={!isMenuOpen ? '/menu.svg' : '/menu_close.svg'}
+            className='h-6'
+            onClick={() => toggleMenu()}
+          />
         </div>
+        {isMenuOpen && (
+          <div className='flex flex-col items-center mt-4 space-y-4 text-lg font-medium'>
+            <h3
+              className='relative underline_item cursor-pointer'
+              onClick={() => scrollTo('vision')}
+            >
+              Vision
+            </h3>
+            <h3
+              className='relative underline_item cursor-pointer'
+              onClick={() => scrollTo('urbeImg')}
+            >
+              Urbe.eth
+            </h3>
+            <h3
+              className='relative underline_item cursor-pointer'
+              onClick={() => scrollTo('ethrome')}
+            >
+              ETHRome
+            </h3>
+          </div>
+        )}
       </div>
     </>
   )
