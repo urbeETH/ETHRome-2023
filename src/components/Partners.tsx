@@ -22,6 +22,11 @@ export default function Partners() {
           url='https://ethmunich.de/'
           alt='Logo ETHMunich'
         />
+                <ImageLink
+          imagePath='/partners/logo-akasha.svg'
+          url='https://akasha.barcelona/en'
+          alt='Logo Akasha'
+        />
         <ImageLink imagePath='/partners/logo-rekt.svg' url='https://rekt.news/' alt='Logo Rekt' />
         <ImageLink
           imagePath='/partners/logo-ethdam.svg'
