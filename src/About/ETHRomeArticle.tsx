@@ -61,7 +61,7 @@ export default function Article() {
                 </p>
                 <p className='text-lg font-light md:text-xl font-redhat mt-2'>
                   Huge technological monopolies have arisen, feasting on free data provided by users
-                  and transacting without proper safeguards. there are no clear rules on how the
+                  and transacting without proper safeguards. There are no clear rules on how the
                   data would be managed and the privacy protected, or how wealth generated from this
                   data would be redistributed back to the society and the individuals that provided
                   it.
