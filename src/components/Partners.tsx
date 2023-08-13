@@ -22,7 +22,7 @@ export default function Partners() {
           url='https://ethmunich.de/'
           alt='Logo ETHMunich'
         />
-                <ImageLink
+        <ImageLink
           imagePath='/partners/logo-akasha.svg'
           url='https://akasha.barcelona/en'
           alt='Logo Akasha'
@@ -69,6 +69,11 @@ export default function Partners() {
           imagePath='/partners/logo-buidlers-tribe.svg'
           url='https://buidlerstribe.com/'
           alt='Logo Buidlers Tribe'
+        />
+        <ImageLink
+          imagePath='/partners/logo-forweb3.svg'
+          url='https://forwebthree.com/'
+          alt='Logo ForWeb3'
         />
         <ImageLink
           imagePath='/partners/logo-spaghetteth.svg'
