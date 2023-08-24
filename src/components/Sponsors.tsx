@@ -4,33 +4,49 @@ export default function Sponsors() {
     <div className='pt-16 md:pt-24 bg-[#EFEBE6] flex flex-col items-center justify-center'>
       <h4 className='font-semibold text-rome-purple uppercase opacity-60'>Sponsors</h4>
       {/* senator */}
-      <div className='flex flex-col'>
+      <div className='w-full px-8 py-4 flex flex-col justify-center md:py-16 md:flex-row md:justify-evenly'>
         <Image
           imagePath='/sponsors/logo-gnosis.svg'
-          url="https://www.gnosis.io/"
+          url='https://www.gnosis.io/'
           alt='Logo Gnosis Chain'
-          className='h-40 md:h-60'
+          className='h-28 mt-4 md:h-24 md:mt-0'
+        />
+        <Image
+          imagePath='/sponsors/logo-ens.svg'
+          url='https://ens.domains/'
+          alt='Logo ENS'
+          className='h-28 md:h-24'
         />
       </div>
-      <div className='flex flex-row w-full justify-evenly'>
-        <Image
-          imagePath='/sponsors/logo-esp.svg'
-          url='https://esp.ethereum.foundation/'
-          alt='Logo EF ESP'
-          className='h-16 md:h-28'
-        />
-        <Image
-          imagePath='/sponsors/logo-sismo.svg'
-          url='https://www.sismo.io/'
-          alt='Logo Sismo'
-          className='h-16 md:h-28'
-        />
-        <Image
-          imagePath='/sponsors/logo-base.svg'
-          url='https://base.org'
-          alt='Logo Base'
-          className='h-16 md:h-28'
-        />
+      <div className='w-full mt-8 flex flex-col justify-evenly md:flex-row '>
+        <div className='w-full flex justify-evenly md:w-1/2 md:justify-around'>
+          <Image
+            imagePath='/sponsors/logo-esp.svg'
+            url='https://esp.ethereum.foundation/'
+            alt='Logo EF ESP'
+            className='h-16 md:h-28'
+          />
+          <Image
+            imagePath='/sponsors/logo-sismo.svg'
+            url='https://www.sismo.io/'
+            alt='Logo Sismo'
+            className='h-16 md:h-28'
+          />
+        </div>
+        <div className='w-full flex justify-evenly md:w-1/2 md:justify-around'>
+          <Image
+            imagePath='/sponsors/logo-base.svg'
+            url='https://base.org'
+            alt='Logo Base'
+            className='h-16 md:h-28'
+          />
+          <Image
+            imagePath='/sponsors/logo-secret_network.svg'
+            url='https://scrt.network/'
+            alt='Logo Secret Network'
+            className='h-16 md:h-28'
+          />
+        </div>
       </div>
     </div>
   )
