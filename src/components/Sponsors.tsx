@@ -1,7 +1,7 @@
 import { Image } from './ImageLink'
 export default function Sponsors() {
   return (
-    <div className='pt-16 md:pt-24 bg-[#EFEBE6] flex flex-col items-center justify-center'>
+    <div className='pt-16 md:pt-24 bg-[#EFEBE6]  flex flex-col items-center justify-center'>
       <h4 className='font-semibold text-rome-purple uppercase opacity-60'>Sponsors</h4>
       {/* senator */}
       <div className='w-full px-8 py-4 flex flex-col justify-center md:py-16 md:flex-row md:justify-evenly'>
@@ -18,36 +18,36 @@ export default function Sponsors() {
           className='h-28 md:h-24'
         />
       </div>
-      <div className='w-full mt-8 flex flex-col justify-around md:flex-row '>
+      <div className='w-full mt-8 grid gap-4 grid-cols-2 grid-rows-3 md:flex md:justify-around'>
         <Image
           imagePath='/sponsors/logo-esp.svg'
           url='https://esp.ethereum.foundation/'
           alt='Logo EF ESP'
-          className='flex justify-center items-center h-16 md:h-28'
+          className='h-16 md:h-28'
         />
         <Image
           imagePath='/sponsors/logo-sismo.svg'
           url='https://www.sismo.io/'
           alt='Logo Sismo'
-          className='flex justify-center items-center h-16 md:h-28'
+          className='h-16 md:h-28'
         />
         <Image
           imagePath='/sponsors/logo-base.svg'
           url='https://base.org'
           alt='Logo Base'
-          className='flex justify-center items-center h-16 md:h-28'
+          className='h-16 md:h-28'
         />
         <Image
           imagePath='/sponsors/logo-secret_network.svg'
           url='https://scrt.network/'
           alt='Logo Secret Network'
-          className='flex justify-center items-center h-16 md:h-28'
+          className='h-16 md:h-28'
         />
         <Image
           imagePath='/sponsors/logo-pse.svg'
           url='https://pse.dev/'
           alt='Logo PSE'
-          className='flex justify-center items-center h-16 md:h-28'
+          className='h-16 md:h-28'
         />
       </div>
     </div>
