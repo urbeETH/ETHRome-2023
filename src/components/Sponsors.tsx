@@ -23,31 +23,31 @@ export default function Sponsors() {
           imagePath='/sponsors/logo-esp.svg'
           url='https://esp.ethereum.foundation/'
           alt='Logo EF ESP'
-          className='h-16 md:h-28'
+          className='flex justify-center items-center h-16 md:h-28'
         />
         <Image
           imagePath='/sponsors/logo-sismo.svg'
           url='https://www.sismo.io/'
           alt='Logo Sismo'
-          className='h-16 md:h-28'
+          className='flex justify-center items-center h-16 md:h-28'
         />
         <Image
           imagePath='/sponsors/logo-base.svg'
           url='https://base.org'
           alt='Logo Base'
-          className='h-16 md:h-28'
+          className='flex justify-center items-center h-16 md:h-28'
         />
         <Image
           imagePath='/sponsors/logo-secret_network.svg'
           url='https://scrt.network/'
           alt='Logo Secret Network'
-          className='h-16 md:h-28'
+          className='flex justify-center items-center h-16 md:h-28'
         />
         <Image
           imagePath='/sponsors/logo-pse.svg'
           url='https://pse.dev/'
           alt='Logo PSE'
-          className='h-16 md:h-28'
+          className='flex justify-center items-center h-16 md:h-28'
         />
       </div>
     </div>
