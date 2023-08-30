@@ -18,35 +18,37 @@ export default function Sponsors() {
           className='h-28 md:h-24'
         />
       </div>
-      <div className='w-full mt-8 flex flex-col justify-evenly md:flex-row '>
-        <div className='w-full flex justify-evenly md:w-1/2 md:justify-around'>
-          <Image
-            imagePath='/sponsors/logo-esp.svg'
-            url='https://esp.ethereum.foundation/'
-            alt='Logo EF ESP'
-            className='h-16 md:h-28'
-          />
-          <Image
-            imagePath='/sponsors/logo-sismo.svg'
-            url='https://www.sismo.io/'
-            alt='Logo Sismo'
-            className='h-16 md:h-28'
-          />
-        </div>
-        <div className='w-full flex justify-evenly md:w-1/2 md:justify-around'>
-          <Image
-            imagePath='/sponsors/logo-base.svg'
-            url='https://base.org'
-            alt='Logo Base'
-            className='h-16 md:h-28'
-          />
-          <Image
-            imagePath='/sponsors/logo-secret_network.svg'
-            url='https://scrt.network/'
-            alt='Logo Secret Network'
-            className='h-16 md:h-28'
-          />
-        </div>
+      <div className='w-full mt-8 flex flex-col justify-around md:flex-row '>
+        <Image
+          imagePath='/sponsors/logo-esp.svg'
+          url='https://esp.ethereum.foundation/'
+          alt='Logo EF ESP'
+          className='h-16 md:h-28'
+        />
+        <Image
+          imagePath='/sponsors/logo-sismo.svg'
+          url='https://www.sismo.io/'
+          alt='Logo Sismo'
+          className='h-16 md:h-28'
+        />
+        <Image
+          imagePath='/sponsors/logo-base.svg'
+          url='https://base.org'
+          alt='Logo Base'
+          className='h-16 md:h-28'
+        />
+        <Image
+          imagePath='/sponsors/logo-secret_network.svg'
+          url='https://scrt.network/'
+          alt='Logo Secret Network'
+          className='h-16 md:h-28'
+        />
+        <Image
+          imagePath='/sponsors/logo-pse.svg'
+          url='https://pse.dev/'
+          alt='Logo PSE'
+          className='h-16 md:h-28'
+        />
       </div>
     </div>
   )

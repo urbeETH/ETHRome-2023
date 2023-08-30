@@ -36,7 +36,7 @@ export default function Partners() {
         <ImageLink
           imagePath='/partners/logo-ethbrno.svg'
           url='https://ethbrno.cz/'
-          alt='Logo ethBRNo'
+          alt='Logo ETHBRNo'
         />
         <ImageLink
           imagePath='/partners/logo-bankless.svg'
@@ -64,6 +64,11 @@ export default function Partners() {
           imagePath='/partners/logo-yomi.svg'
           url='https://yomi.digital/#/'
           alt='Logo Yomi'
+        />
+                <ImageLink
+          imagePath='/partners/logo-ethistanbul.svg'
+          url='https://ethglobal.com/events/istanbul'
+          alt='Logo ETHIstanbul'
         />
         <ImageLink
           imagePath='/partners/logo-buidlers-tribe.svg'
