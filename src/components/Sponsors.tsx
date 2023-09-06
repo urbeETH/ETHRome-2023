@@ -13,18 +13,18 @@ export default function Sponsors() {
         />
       </div>
       {/* patricians */}
-      <div className='w-full px-8 py-4 flex flex-col justify-center md:py-8 md:flex-row md:justify-center'>
+      <div className='w-full px-8 py-4 flex flex-col justify-center md:py-8 md:flex-row md:justify-center items-center md:space-x-[32px]'>
         <Image
           imagePath='/sponsors/logo-gnosis.svg'
           url='https://www.gnosis.io/'
           alt='Logo Gnosis Chain'
-          className='h-28 mt-4 md:h-24 md:mt-0'
+          className='h-28 mt-4 md:h-36 md:mt-0'
         />
         <Image
           imagePath='/sponsors/logo-ens.svg'
           url='https://ens.domains/'
           alt='Logo ENS'
-          className='h-28 md:h-24'
+          className='h-28 md:h-36'
         />
       </div>
       <div className='w-full mt-8 grid gap-4 grid-cols-2 grid-rows-3 md:flex md:justify-center md:space-x-[24px]'>
