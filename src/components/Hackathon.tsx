@@ -19,7 +19,7 @@ export default function Hackathon() {
               <span className='font-bold'>applications that prioritize privacy and security</span>.
             </p>
           </div>
-          <div className='flex flex-col items-center max-w-xs space-y-4'>
+          <div className='flex flex-col items-center max-w-xs space-y-2'>
             <SpotHero />
             <h2 className='text-3xl text-rome-red font-bold'>DAOs & Dragons</h2>
             <p className='text-center font-redhat'>

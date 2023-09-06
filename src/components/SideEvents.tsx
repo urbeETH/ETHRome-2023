@@ -52,26 +52,30 @@ export default function SideEvents() {
             </p>
           </div>
         </div>
-        <div className='flex flex-col items-center space-y-8 mt-8 px-16 md:flex-row md:items-start justify-evenly md:space-y-0'>
+        <div className='grid grid-cols-2 lg:grid-cols-4 gap-[20px] px-4'>
+          {/* <div className='flex flex-col items-center space-y-8 space-x-0 md:space-x-[20px] mt-8 px-16 md:flex-row md:items-start justify-evenly md:space-y-0'> */}
           {sideEventsList.map(
             ({ bg, link, event, description, data, place, calendar, location }) => (
-              <div className='flex flex-col items-center p-4 space-y-4' key={event}>
+              <div
+                className='flex flex-col items-center space-y-4 max-w-[260px] h-full'
+                key={event}
+              >
                 <a href={`${link}`} target='_blank'>
-                  <div className='flex justify-center items-center w-full max-w-[320px] h-52 '>
+                  <div className='flex justify-center items-center w-full max-w-[320px] h-52'>
                     <img
-                      className='md:hover:scale-110 transition-all duration-700'
+                      className='md:hover:scale-105 transition-transform duration-700 min-h-[189px] w-full rounded-xl object-cover'
                       src={`./sideEvents/${bg}`}
                       alt=''
                     />
                   </div>
                 </a>
-                <div className='flex flex-col justify-start items-center px-8'>
-                  <h2 className='text-xl text-rome-red text-left font-bold'>{event}</h2>
-                  <p className='text-center font-redhat'>{description}</p>
-                  <div className='relative w-full flex flex-col pt-2 2xl:flex-row justify-evenly'>
-                    <div className='flex justify-center mb-2 md:mb-0 md:justify-around'>
+                <div className='flex flex-col justify-start '>
+                  <h2 className='text-[16px] text-rome-red text-left font-bold'>{event}</h2>
+                  <p className='text-left font-redhat text-[16px]'>{description}</p>
+                  <div className='relative w-full flex flex-col md:flex-row space-x-0 pt-2 md:space-x-[12px] mt-auto'>
+                    <div className='flex justify-start mb-2 md:mb-0 space-x-[6px]'>
                       <img src={`./sideEvents/${calendar}`} alt='' className='w-[20px] h-[20px]' />
-                      <h2 className='side_events_data text-sm text-rome-red text-center font-bold pl-2'>
+                      <h2 className='side_events_data text-sm text-[#13080E] text-opacity-[0.64] text-center font-semibold'>
                         {data}
                       </h2>
                     </div>
@@ -79,13 +83,13 @@ export default function SideEvents() {
                       href='https://www.google.com/maps/place/Villaggio+Globale/@41.8741306,12.4719822,15z/data=!4m6!3m5!1s0x132f60300ef3b2b3:0xefe2660fd385fd0f!8m2!3d41.8741306!4d12.4719822!16s%2Fg%2F11fnwh3zv1?entry=ttu'
                       target='_blank'
                     >
-                      <div className='flex justify-center md:justify-around '>
+                      <div className='flex justify-start space-x-[6px]'>
                         <img
                           src={`./sideEvents/${location}`}
                           alt=''
                           className='w-[20px] h-[20px]'
                         />
-                        <h2 className='side_events_place text-sm text-rome-red text-center font-bold md:pl-1'>
+                        <h2 className='side_events_place text-sm text-[#13080E] text-opacity-[0.64] text-center font-semibold'>
                           {place}
                         </h2>
                       </div>

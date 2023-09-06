@@ -3,7 +3,7 @@ import CoinsBounties from './animations/CoinsBounties'
 /** Bounties List */
 
 const bountiesList = [
-  { logo: 'ETHRome-LP-Bounties-logoWaku.svg', amount: '', mila: '', tbd: 'tbd' },
+  { logo: 'ETHRome-LP-Bounties-logoWaku.svg', dollaro: '$', amount: '4', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoBase.svg', amount: '', mila: '', tbd: 'tbd' },
   { logo: 'ETHRome-LP-Bounties-logoSecretNetwork.svg', amount: '', mila: '', tbd: 'tbd' },
   { logo: 'ETHRome-LP-Bounties-logoENS.svg', dollaro: '$', amount: '5', mila: 'K' },
@@ -25,12 +25,12 @@ const bountiesList = [
     amount: '1',
     mila: 'K',
   },
-  { logo: 'ETHRome-LP-Bounties-logoUrbe.svg', dollaro: '$', amount: '1', mila: 'K' }
+  { logo: 'ETHRome-LP-Bounties-logoUrbe.svg', dollaro: '$', amount: '1', mila: 'K' },
 ]
 
 export default function Bounties() {
   return (
-    <div className='w-full bg-[#191818] relative px-0 pt-36 pb-72 md:pb-16 ' id='bounties'>
+    <div className='w-full bg-[#13080E] relative px-0 pt-36 pb-72 md:pb-16 ' id='bounties'>
       <img src='/floating_coins.png' className='absolute hidden xl:block -top-8 left-72' />
       <img src='/floating_coins.png' className='absolute block md:hidden -top-12 left-8' />
 
@@ -43,32 +43,39 @@ export default function Bounties() {
               className='absolute translate-y-1/2 bottom-1/2 xl:-translate-x-1/2'
             />
           </div>
-          <h2 className='z-20 mt-8 max-w-xl text-xl font-light text-white bg-[#191818] font-redhat xl:mt-0'>
+          <h2 className='z-20 mt-8 max-w-xl text-xl font-light text-white bg-[#13080E] font-redhat xl:mt-0'>
             <span className='font-bold text-[#FABB00]'>Spice up your project</span> and win big with
             sponsorship bounties! Experiment with new technologies and meet specific requirements to{' '}
             <span className='font-bold text-[#FABB00]'>earn thrilling rewards.</span>
           </h2>
         </div>
 
-        <div id='bounties_grid' className='mt-16 px-8 flex flex-wrap gap-[20px] justify-center'>
+        <div
+          id='bounties_grid'
+          className='mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-[20px] gap-y-4 justify-center'
+        >
           {bountiesList.map(({ logo, dollaro, amount, mila, tbd }) => (
             <>
               <div
                 id='bounties_cell'
-                className='relative w-full max-w-[253px] h-[170px] p-4 flex flex-col items-center justify-around text-2xl'
+                className='relative w-full max-w-[168px] h-[123px] p-4 flex flex-col space-y-[6px] items-center justify-around text-2xl px-[36px] pt-[20px] pb-[12px] bg-[#FABB0047] bg-opacity-[0.64] rounded-xl'
               >
                 <img src={`./bounties/${logo}`} alt='' />
 
                 <div className='flex justify-evenly items-center'>
                   <span className='text-white '>{dollaro}</span>
                   <h2 className='text-rome-yellow text-4xl px-2 font-black'>
-                    {amount} <span className='text-white'>{tbd}</span>
+                    {amount} <span className='text-white font-medium opacity-[0.64]'>{tbd}</span>
                   </h2>
                   <span className='text-white'>{mila}</span>
                 </div>
-                <div className='absolute top-0 left-0 '>
-                  <img src="/bg_bounties.png" alt="" className='opacity-30 mix-blend-overlay object-cover' />
-                </div>
+                {/* <div className='absolute top-0 left-0 h-full w-full'> */}
+                <img
+                  src='/bounties/bg_bounties.png'
+                  alt=''
+                  className='opacity-30 mix-blend-overlay object-cover absolute h-full -top-2'
+                />
+                {/* </div> */}
               </div>
             </>
           ))}
