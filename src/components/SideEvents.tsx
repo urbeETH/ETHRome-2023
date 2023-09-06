@@ -5,7 +5,7 @@ const sideEventsList = [
     event: 'web3privacy • Rome’s Takeover',
     description: 'Global privacy advocates converge to mainstream privacy in Web3',
     calendar: 'tdesign_calendar.svg',
-    data: 'Sat, Oct 7th',
+    data: 'Thu, Oct 5th',
     location: 'tdesign_location.svg',
     place: 'Villaggio Globale',
   },
@@ -15,7 +15,7 @@ const sideEventsList = [
     event: 'urbe.eth • UrbeTalks ETHRome',
     description: 'Urbe.eth monthly meetup hosting 4 speakers delving into various topics',
     calendar: 'tdesign_calendar.svg',
-    data: 'Thu, Oct 5th',
+    data: 'Sat, Oct 7th',
     location: 'tdesign_location.svg',
     place: 'CAE',
   },
@@ -65,12 +65,12 @@ export default function SideEvents() {
                     />
                   </div>
                 </a>
-                <div className='flex flex-col justify-start px-8'>
+                <div className='flex flex-col justify-start items-center px-8'>
                   <h2 className='text-xl text-rome-red text-left font-bold'>{event}</h2>
-                  <p className='text-left font-redhat'>{description}</p>
+                  <p className='text-center font-redhat'>{description}</p>
 
                   <div className='relative w-full flex flex-col pt-2 2xl:flex-row justify-evenly'>
-                    <div className='flex justify-around '>
+                    <div className='flex justify-center mb-2 md:mb-0 md:justify-around'>
                       <img src={`./sideEvents/${calendar}`} alt='' className='w-[20px] h-[20px]' />
                       <h2 className='side_events_data text-sm text-rome-red text-center font-bold pl-2'>
                         {data}
@@ -80,7 +80,7 @@ export default function SideEvents() {
                       href='https://www.google.com/maps/place/Villaggio+Globale/@41.8741306,12.4719822,15z/data=!4m6!3m5!1s0x132f60300ef3b2b3:0xefe2660fd385fd0f!8m2!3d41.8741306!4d12.4719822!16s%2Fg%2F11fnwh3zv1?entry=ttu'
                       target='_blank'
                     >
-                      <div className='flex justify-around '>
+                      <div className='flex justify-center md:justify-around '>
                         <img
                           src={`./sideEvents/${location}`}
                           alt=''

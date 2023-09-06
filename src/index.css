@@ -129,6 +129,7 @@ code {
   right: 0px;
   bottom: 0px;
   left: 0px;
+  border-radius: 22px;
   background-image: url(/public/bounties/bounties_cell_bg.svg);
   background-position: center;
   background-size: cover;

@@ -4,6 +4,8 @@ import CoinsBounties from './animations/CoinsBounties'
 
 const bountiesList = [
   { logo: 'ETHRome-LP-Bounties-logoWaku.svg', amount: '', mila: '', tbd: 'tbd' },
+  { logo: 'ETHRome-LP-Bounties-logoBase.svg', amount: '', mila: '', tbd: 'tbd' },
+  { logo: 'ETHRome-LP-Bounties-logoSecretNetwork.svg', amount: '', mila: '', tbd: 'tbd' },
   { logo: 'ETHRome-LP-Bounties-logoENS.svg', dollaro: '$', amount: '5', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoGnosisChain.svg', dollaro: '$', amount: '5', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoSismo.svg', dollaro: '$', amount: '4', mila: 'K' },
@@ -23,9 +25,7 @@ const bountiesList = [
     amount: '1',
     mila: 'K',
   },
-  { logo: 'ETHRome-LP-Bounties-logoUrbe.svg', dollaro: '$', amount: '1', mila: 'K' },
-  { logo: 'ETHRome-LP-Bounties-logoBase.svg', amount: '', mila: '', tbd: 'tbd' },
-  { logo: 'ETHRome-LP-Bounties-logoSecretNetwork.svg', amount: '', mila: '', tbd: 'tbd' },
+  { logo: 'ETHRome-LP-Bounties-logoUrbe.svg', dollaro: '$', amount: '1', mila: 'K' }
 ]
 
 export default function Bounties() {
@@ -55,9 +55,9 @@ export default function Bounties() {
             <>
               <div
                 id='bounties_cell'
-                className='relative w-full max-w-[253px] h-[170px] p-4 flex flex-col items-center justify-around border-4 border-rome-yellow rounded-[12px] text-2xl'
+                className='relative w-full max-w-[253px] h-[170px] p-4 flex flex-col items-center justify-around text-2xl'
               >
-                <img src={`./bounties/${logo}`} alt='' />
+                <img src={`./bounties/${logo}`} alt='' className='rounded-[12px]' />
 
                 <div className='flex justify-evenly items-center'>
                   <span className='text-white opacity-70'>{dollaro}</span>
