@@ -2,7 +2,7 @@ import { Icon } from '@iconify/react'
 
 export default function Footer() {
   return (
-    <div className='flex flex-col items-center justify-between w-full gap-4 px-16 py-8 space-y-2 bg-black md:flex-row sm:gap-0'>
+    <div className='flex flex-col items-center justify-between w-full gap-4 px-16 py-8 space-y-2 bg-[#191818] md:flex-row sm:gap-0'>
       <img src='/logo_footer.png' className='h-20' />
       <p className='text-2xl text-center text-white'>Hacking history, shaping the future.</p>
 
