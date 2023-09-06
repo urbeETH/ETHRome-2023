@@ -4,8 +4,6 @@ import CoinsBounties from './animations/CoinsBounties'
 
 const bountiesList = [
   { logo: 'ETHRome-LP-Bounties-logoWaku.svg', dollaro: '$', amount: '4', mila: 'K' },
-  { logo: 'ETHRome-LP-Bounties-logoBase.svg', amount: '', mila: '', tbd: 'tbd' },
-  { logo: 'ETHRome-LP-Bounties-logoSecretNetwork.svg', amount: '', mila: '', tbd: 'tbd' },
   { logo: 'ETHRome-LP-Bounties-logoENS.svg', dollaro: '$', amount: '5', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoGnosisChain.svg', dollaro: '$', amount: '5', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoSismo.svg', dollaro: '$', amount: '4', mila: 'K' },
@@ -26,6 +24,8 @@ const bountiesList = [
     mila: 'K',
   },
   { logo: 'ETHRome-LP-Bounties-logoUrbe.svg', dollaro: '$', amount: '1', mila: 'K' },
+  { logo: 'ETHRome-LP-Bounties-logoBase.svg', amount: '', mila: '', tbd: 'tbd' },
+  { logo: 'ETHRome-LP-Bounties-logoSecretNetwork.svg', amount: '', mila: '', tbd: 'tbd' },
 ]
 
 export default function Bounties() {
