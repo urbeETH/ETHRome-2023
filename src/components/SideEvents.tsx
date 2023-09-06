@@ -68,7 +68,6 @@ export default function SideEvents() {
                 <div className='flex flex-col justify-start items-center px-8'>
                   <h2 className='text-xl text-rome-red text-left font-bold'>{event}</h2>
                   <p className='text-center font-redhat'>{description}</p>
-
                   <div className='relative w-full flex flex-col pt-2 2xl:flex-row justify-evenly'>
                     <div className='flex justify-center mb-2 md:mb-0 md:justify-around'>
                       <img src={`./sideEvents/${calendar}`} alt='' className='w-[20px] h-[20px]' />

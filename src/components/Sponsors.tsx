@@ -3,7 +3,16 @@ export default function Sponsors() {
   return (
     <div className='pt-16 md:pt-24 bg-[#EFEBE6]  flex flex-col items-center justify-center'>
       <h4 className='font-semibold text-rome-purple uppercase opacity-60'>Sponsors</h4>
-      {/* senator */}
+
+      <div className='w-full px-8 pt-4 pb-2 flex flex-col justify-center md:pt-16 mb:pb-8 md:flex-row md:justify-evenly'>
+        <Image
+          imagePath='/sponsors/logo-waku.svg'
+          url='https://waku.org/'
+          alt='Logo Waku'
+          className='h-80 mt-4 md:h-56 md:mt-0'
+        />
+      </div>
+      {/* patricians */}
       <div className='w-full px-8 py-4 flex flex-col justify-center md:py-16 md:flex-row md:justify-evenly'>
         <Image
           imagePath='/sponsors/logo-gnosis.svg'

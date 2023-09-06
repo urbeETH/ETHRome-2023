@@ -122,6 +122,8 @@ code {
 * bounties
 */
 
+/*
+
 #bounties_cell:before {
   content: '';
   position: absolute;
@@ -129,14 +131,15 @@ code {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  border-radius: 22px;
-  background-image: url(/public/bounties/bounties_cell_bg.svg);
+  border-radius: 16px;
+  background-color: #FABB00;
+  background-image: url(/public/bounties/bg_bounties.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.3;
+  opacity: 0.28;
 }
-
+*/
 
 /*
 * Side Events

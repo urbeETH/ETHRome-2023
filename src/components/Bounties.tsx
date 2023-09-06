@@ -10,10 +10,10 @@ const bountiesList = [
   { logo: 'ETHRome-LP-Bounties-logoGnosisChain.svg', dollaro: '$', amount: '5', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoSismo.svg', dollaro: '$', amount: '4', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoPSE.svg', dollaro: '$', amount: '3', mila: 'K' },
-  { logo: 'ETHRome-LP-Bounties-logoBuidlGuidl.svg', dollaro: '', amount: '5', mila: 'K' },
-  { logo: 'ETHRome-LP-Bounties-logoHopr.svg', dollaro: '', amount: '3', mila: 'K' },
-  { logo: 'ETHRome-LP-Bounties-logoTalentProtocol.svg', dollaro: '', amount: '2.5', mila: 'K' },
-  { logo: 'ETHRome-LP-Bounties-logoTalentLayer.svg', dollaro: '', amount: '2.5', mila: 'K' },
+  { logo: 'ETHRome-LP-Bounties-logoBuidlGuidl.svg', dollaro: '$', amount: '5', mila: 'K' },
+  { logo: 'ETHRome-LP-Bounties-logoHopr.svg', dollaro: '$', amount: '3', mila: 'K' },
+  { logo: 'ETHRome-LP-Bounties-logoTalentProtocol.svg', dollaro: '$', amount: '2.5', mila: 'K' },
+  { logo: 'ETHRome-LP-Bounties-logoTalentLayer.svg', dollaro: '$', amount: '2.5', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoKeyko.svg', dollaro: '$', amount: '2', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoInterface.svg', dollaro: '$', amount: '1.5', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoDataverseOS.svg', dollaro: '$', amount: '1', mila: 'K' },
@@ -57,14 +57,17 @@ export default function Bounties() {
                 id='bounties_cell'
                 className='relative w-full max-w-[253px] h-[170px] p-4 flex flex-col items-center justify-around text-2xl'
               >
-                <img src={`./bounties/${logo}`} alt='' className='rounded-[12px]' />
+                <img src={`./bounties/${logo}`} alt='' />
 
                 <div className='flex justify-evenly items-center'>
-                  <span className='text-white opacity-70'>{dollaro}</span>
-                  <h2 className='text-rome-yellow text-4xl px-2'>
-                    {amount} <span className='text-white opacity-70'>{tbd}</span>
+                  <span className='text-white '>{dollaro}</span>
+                  <h2 className='text-rome-yellow text-4xl px-2 font-black'>
+                    {amount} <span className='text-white'>{tbd}</span>
                   </h2>
-                  <span className='text-white opacity-70'>{mila}</span>
+                  <span className='text-white'>{mila}</span>
+                </div>
+                <div className='absolute top-0 left-0 '>
+                  <img src="/bg_bounties.png" alt="" className='opacity-30 mix-blend-overlay object-cover' />
                 </div>
               </div>
             </>
