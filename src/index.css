@@ -118,6 +118,52 @@ code {
   transform-origin: 80px 94px;
 }
 
+/*
+* bounties
+*/
+
+#bounties_cell:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url(/public/bounties/bounties_cell_bg.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+}
+
+
+/*
+* Side Events
+*/
+
+/*
+
+.side_events_data::after{
+  content: '';
+  position: absolute;
+  left: -25px;
+  top:0;
+  width: 20px;
+  height: 20px;
+  background-image: url(/public/sideEvents/tdesign_calendar.svg);
+}
+
+.side_events_place::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top:0;
+  width: 20px;
+  height: 20px;
+  background-image: url(/public/sideEvents/tdesign_location.svg);
+}
+*/
+
 /**
 * Animations
 **/
