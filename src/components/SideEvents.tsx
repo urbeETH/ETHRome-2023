@@ -31,6 +31,7 @@ const sideEventsList = [
   },
   {
     bg: 'side-events_tobe.png',
+    link: 'mailto:sponsor@ethrome.org',
     event: 'Your side event goes here',
     calendar: 'null.svg',
     location: 'null.svg',
