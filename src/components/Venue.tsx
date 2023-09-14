@@ -6,7 +6,7 @@ export default function Venue() {
         alt='Citta-Altra-Economia'
         className='object-cover object-[50%] h-[100vh] md:w-full'
       />
-      <div className='absolute w-full h-[200px] top-[-1px] left-0 bg-gradient-to-b from-[#191818] to-transparent'></div>
+      <div className='absolute w-full h-[200px] top-[-1px] left-0 bg-gradient-to-b from-[#13080E] to-transparent'></div>
       <div className='absolute bottom-8 md:top-[80%] left-1/2 -translate-x-1/2 md:left-48 md:translate-x-0 '>
         <h1 className='text-7xl max-w-4xl text-white font-bold'>Location</h1>
         <p className='text-white max-w-xs md:max-w-[385px] text-center md:text-left font-redhat'>
