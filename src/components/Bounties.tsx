@@ -61,7 +61,7 @@ const bountiesList = [
   { logo: 'ETHRome-LP-Bounties-logoBrian.svg', link: 'https://www.brianknows.org/', dollaro: '$', amount: '1', mila: 'K' },
   {
     logo: 'b7fe7200-ba3d-11ec-bd24-ab5b0b73876cSpethLogo 3.svg',
-    link: '',
+    link: 'https://twitter.com/the_cypherparty',
     dollaro: '$',
     amount: '1',
     mila: 'K',

@@ -1,7 +1,7 @@
 const sideEventsList = [
   {
     bg: 'side-events_web3privacy.png',
-    link: 'https://prague.web3privacy.info/',
+    link: 'https://lu.ma/web3privacynow_rome',
     event: 'web3privacy • Rome’s Takeover',
     description: 'Global privacy advocates converge to mainstream privacy in Web3',
     calendar: 'tdesign_calendar.svg',
