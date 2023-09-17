@@ -19,7 +19,7 @@ export default function Hackathon() {
               <span className='font-bold'>applications that prioritize privacy and security</span>.
             </p>
             <div className='w-[280px] flex flex-col items-center justify-center relative overflow-hidden rounded-2xl pt-[12px] pb-[8px]'>
-              <img src='/hackathon_prize_pool.png' className='absolute z-0' />
+              <img src='/hackathon_prize_pool.png' className='absolute z-0 opacity-[0.56]' />
               <div className='flex flex-col items-center justify-center z-10'>
                 <h1 className='text-rome-red font-bold mb-2'>TOTAL PRIZE POOL</h1>
                 <div className='flex items-center'>
@@ -44,7 +44,7 @@ export default function Hackathon() {
             </p>
 
             <div className='w-[280px] flex flex-col items-center justify-center relative overflow-hidden rounded-2xl pt-[12px] pb-[8px]'>
-              <img src='/hackathon_prize_pool.png' className='absolute z-0' />
+              <img src='/hackathon_prize_pool.png' className='absolute z-0 opacity-[0.56]' />
               <div className='flex flex-col items-center justify-center z-10'>
                 <h1 className='text-rome-red font-bold mb-2'>TOTAL PRIZE POOL</h1>
                 <div className='flex items-center'>
