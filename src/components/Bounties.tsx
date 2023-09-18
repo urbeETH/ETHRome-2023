@@ -12,6 +12,7 @@ const bountiesList = [
     amount: '5',
     mila: 'K',
   },
+  { logo: 'ETHRome-LP-Bounties-logoRailgun.svg', link: 'https://www.railgun.org/', dollaro: '$', amount: '18', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoSismo.svg', link: 'https://www.sismo.io/', dollaro: '$', amount: '4', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoPSE.svg', link: 'https://pse.dev/', dollaro: '$', amount: '3', mila: 'K' },
   {
@@ -66,7 +67,6 @@ const bountiesList = [
     amount: '1',
     mila: 'K',
   },
-  { logo: 'ETHRome-LP-Bounties-logoUrbe.svg', link: 'https://twitter.com/urbeEth', dollaro: '$', amount: '1', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoBase.svg', link: 'https://base.org/', amount: '', mila: '', tbd: 'tbd' },
   { logo: 'ETHRome-LP-Bounties-logoSecretNetwork.svg', link: 'https://scrt.network/', amount: '', mila: '', tbd: 'tbd' },
 ]

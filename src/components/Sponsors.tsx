@@ -26,6 +26,12 @@ export default function Sponsors() {
           alt='Logo ENS'
           className='h-28 md:h-36'
         />
+           <Image
+          imagePath='/sponsors/logo-railgun.svg'
+          url='https://www.railgun.org/'
+          alt='Logo Railgun'
+          className='h-28 md:h-36'
+        />
       </div>
       <div className='w-full mt-8 grid gap-4 grid-cols-2 grid-rows-3 md:flex md:justify-center md:space-x-[24px]'>
         <Image
