@@ -90,6 +90,11 @@ export default function Header() {
             <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('contact')}>
               Sponsor Zone
             </h3>
+            <Link to='https://ethrome.notion.site/ETHRome-Hacker-Manual-e3aa8b443a84426186eede13b0ae8709' target="_blank">
+              <h3 className='relative underline_item cursor-pointer'>
+                Hacker Manual
+              </h3>
+            </Link>
           </div>
         )}
       </div>
