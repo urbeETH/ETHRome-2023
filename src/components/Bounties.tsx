@@ -3,7 +3,8 @@ import CoinsBounties from './animations/CoinsBounties'
 /** Bounties List */
 
 const bountiesList = [
-  { logo: 'ETHRome-LP-Bounties-logoWaku.svg', link: 'https://waku.org/', dollaro: '$', amount: '4', mila: 'K' },
+  { logo: 'ETHRome-LP-Bounties-logoWaku.svg', link: 'https://waku.org/', dollaro: '$', amount: '18', mila: 'K' },
+  { logo: 'ETHRome-LP-Bounties-logoRailgun.svg', link: 'https://www.railgun.org/', dollaro: '$', amount: '10', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoENS.svg', link: 'https://app.ens.domains/', dollaro: '$', amount: '5', mila: 'K' },
   {
     logo: 'ETHRome-LP-Bounties-logoGnosisChain.svg',
@@ -12,7 +13,6 @@ const bountiesList = [
     amount: '5',
     mila: 'K',
   },
-  { logo: 'ETHRome-LP-Bounties-logoRailgun.svg', link: 'https://www.railgun.org/', dollaro: '$', amount: '18', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoSismo.svg', link: 'https://www.sismo.io/', dollaro: '$', amount: '4', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoPSE.svg', link: 'https://pse.dev/', dollaro: '$', amount: '3', mila: 'K' },
   {
@@ -69,7 +69,7 @@ const bountiesList = [
   },
   { logo: 'ETHRome-LP-Bounties-logoBase.svg', link: 'https://base.org/', amount: '', mila: '', tbd: 'tbd' },
   { logo: 'ETHRome-LP-Bounties-logoSecretNetwork.svg', link: 'https://scrt.network/', amount: '', mila: '', tbd: 'tbd' },
-]
+].sort((a, b) => parseInt(b.amount) - parseInt(a.amount))
 
 export default function Bounties() {
   return (

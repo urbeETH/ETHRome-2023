@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import {useEffect, useState} from 'react'
 import {Link} from 'react-router-dom'
 
 export default function Header() {
@@ -58,6 +58,11 @@ export default function Header() {
           <h3 className='relative underline_item cursor-pointer' onClick={() => scrollTo('contact')}>
             Sponsor Zone
           </h3>
+          <Link to='https://www.notion.so/ethrome/ETHRome-Hacker-Manual-e3aa8b443a84426186eede13b0ae8709?pvs=4' target="_blank">
+            <h3 className='relative underline_item cursor-pointer'>
+              Hacker Manual
+            </h3>
+          </Link>
         </div>
       </div>
       <div
