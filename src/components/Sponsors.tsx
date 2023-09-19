@@ -47,6 +47,12 @@ export default function Sponsors() {
           className='h-16 md:h-24'
         />
         <Image
+          imagePath='/sponsors/logo-requestnetwork.svg'
+          url='https://request.network/en/'
+          alt='Logo Request Network'
+          className='h-16 md:h-24'
+        />
+        <Image
           imagePath='/sponsors/logo-base.svg'
           url='https://base.org'
           alt='Logo Base'

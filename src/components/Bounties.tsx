@@ -67,6 +67,8 @@ const bountiesList = [
     amount: '1',
     mila: 'K',
   },
+  { logo: 'ETHRome-LP-Bounties-logoRequestNetwork.svg', link: 'https://request.network/en/', dollaro: '$', amount: '4', mila: 'K' },
+  { logo: 'ETHRome-LP-Bounties-logoPeanut.svg', link: 'https://peanut.to/', amount: '1', mila: 'K', dollaro: '$', },
   { logo: 'ETHRome-LP-Bounties-logoBase.svg', link: 'https://base.org/', amount: '', mila: '', tbd: 'tbd' },
   { logo: 'ETHRome-LP-Bounties-logoSecretNetwork.svg', link: 'https://scrt.network/', amount: '', mila: '', tbd: 'tbd' },
 ].sort((a, b) => parseInt(b.amount) - parseInt(a.amount))
@@ -95,7 +97,7 @@ export default function Bounties() {
 
         <div
           id='bounties_grid'
-          className='mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-[20px] gap-y-4 justify-center'
+          className='mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-[20px] gap-y-4 justify-center'
         >
           {bountiesList.map(({ logo, link, dollaro, amount, mila, tbd }) => (
             <>
