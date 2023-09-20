@@ -68,10 +68,12 @@ const bountiesList = [
     mila: 'K',
   },
   { logo: 'ETHRome-LP-Bounties-logoRequestNetwork.svg', link: 'https://request.network/en/', dollaro: '$', amount: '4', mila: 'K' },
+  { logo: 'ETHRome-LP-Bounties-logoAzuro.svg', link: 'https://azuro.org/', dollaro: '$', amount: '2.5', mila: 'K' },
+  { logo: 'ETHRome-LP-Bounties-logoTheGraph.svg', link: 'https://thegraph.com/', dollaro: '$', amount: '2.5', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoPeanut.svg', link: 'https://peanut.to/', amount: '1', mila: 'K', dollaro: '$', },
   { logo: 'ETHRome-LP-Bounties-logoBase.svg', link: 'https://base.org/', amount: '', mila: '', tbd: 'tbd' },
-  { logo: 'ETHRome-LP-Bounties-logoSecretNetwork.svg', link: 'https://scrt.network/', amount: '', mila: '', tbd: 'tbd' },
-].sort((a, b) => parseInt(b.amount) - parseInt(a.amount))
+  { logo: 'ETHRome-LP-Bounties-logoSecretNetwork.svg', link: 'https://scrt.network/', amount: '4', mila: 'k', dollaro: '$' },
+].sort((a, b) => parseFloat(b.amount) - parseFloat(a.amount))
 
 export default function Bounties() {
   return (

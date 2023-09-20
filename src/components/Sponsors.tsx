@@ -71,6 +71,12 @@ export default function Sponsors() {
           className='h-16 md:h-24'
         />
         <Image
+          imagePath='/sponsors/logo-thegraph.svg'
+          url='https://thegraph.com/'
+          alt='Logo The Graph'
+          className='h-16 md:h-24'
+        />
+        <Image
           imagePath='/sponsors/logo-secret_network.svg'
           url='https://scrt.network/'
           alt='Logo Secret Network'
