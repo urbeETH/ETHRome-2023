@@ -16,7 +16,7 @@ export default function PartnersCollaborats() {
             </div>
             <div className='flex justify-center items-center shrink-0 w-[180px] h-[108px] opacity-60'>
               <Image
-                imagePath='/partnersCollaborators/logo-banklessDAO.png'
+                imagePath='/partnersCollaborators/logo-banklessDao.png'
                 url='https://www.bankless.community/'
                 alt='Logo BanklessDAO'
                
