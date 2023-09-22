@@ -2,9 +2,9 @@ import { Image } from './ImageLink'
 export default function Sponsors() {
   return (
     <div className='pt-16 md:pt-24 bg-[#EFEBE6]  flex flex-col items-center justify-center'>
-      <h4 className='font-semibold text-rome-purple uppercase opacity-60'>Sponsors</h4>
+      <h4 className='font-semibold text-rome-purple uppercase '>Sponsors</h4>
 
-      <div className='w-full px-8 pt-4 pb-0 flex flex-col justify-center md:pt-16 mb:pb-8 md:flex-row md:justify-evenly'>
+      <div className='w-full px-8 pt-3 pb-0 flex flex-col justify-center mb:pb-8 md:flex-row md:justify-evenly'>
         <Image
           imagePath='/sponsors/logo-waku.svg'
           url='https://waku.org/'
@@ -13,7 +13,7 @@ export default function Sponsors() {
         />
       </div>
       {/* patricians */}
-      <div className='w-full px-8 py-4 flex flex-col justify-center md:py-8 md:flex-row md:justify-center items-center md:space-x-[32px]'>
+      <div className='w-full px-8 pb-4 flex flex-col justify-center md:pb-8 md:flex-row md:justify-center items-center md:space-x-[32px]'>
         <Image
           imagePath='/sponsors/logo-gnosis.svg'
           url='https://www.gnosis.io/'
@@ -33,7 +33,7 @@ export default function Sponsors() {
           className='h-28 md:h-36'
         />
       </div>
-      <div className='w-full mt-8 grid gap-4 grid-cols-2 grid-rows-3 md:flex md:justify-center md:space-x-[24px] px-0 md:px-8 xl:px-16'>
+      <div className='w-full grid gap-4 grid-cols-2 grid-rows-3 md:flex md:justify-center md:space-x-[24px] px-0 md:px-8 xl:px-16'>
         <Image
           imagePath='/sponsors/logo-esp.svg'
           url='https://esp.ethereum.foundation/'

@@ -5,7 +5,7 @@ export default function ImageLink(props: { imagePath: string; url: string; alt: 
   const { imagePath, url, alt } = props
   return (
     <a href={url} target='_blank' rel='noreferrer' className='justify-self-center'>
-      <img src={imagePath} className='h-16 md:h-28 px-4 md:px-16' alt={alt} />
+      <img src={imagePath} className='opacity-60' alt={alt} />
     </a>
   )
 }

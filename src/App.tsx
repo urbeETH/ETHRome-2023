@@ -9,6 +9,7 @@ import Header from './components/Header'
 import Partners from './components/Partners'
 import Colosseum from './components/Colosseum'
 import Sponsors from './components/Sponsors'
+import PartnersCollaborats from './components/PartnersCollaborators'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <SponsorZone />
         <Sponsors />
         <Partners />
+        <PartnersCollaborats/>
         {/* <Contact /> */}
         <Colosseum />
       </div>
