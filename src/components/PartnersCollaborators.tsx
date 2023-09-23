@@ -11,7 +11,7 @@ export default function PartnersCollaborats() {
                 imagePath='/partnersCollaborators/logo-rekt.svg'
                 url='https://rekt.news'
                 alt='Logo Rekt'
-               
+
               />
             </div>
             <div className='flex justify-center items-center shrink-0 w-[180px] h-[108px] opacity-60'>
@@ -19,7 +19,7 @@ export default function PartnersCollaborats() {
                 imagePath='/partnersCollaborators/logo-banklessDao.png'
                 url='https://www.bankless.community/'
                 alt='Logo BanklessDAO'
-               
+
               />
             </div>
             <div className='flex justify-center items-center shrink-0 w-[180px] h-[108px] opacity-60'>
@@ -27,7 +27,7 @@ export default function PartnersCollaborats() {
                 imagePath='/partnersCollaborators/logo-forweb3.svg'
                 url='https://forwebthree.com/'
                 alt='Logo for web3'
-              
+
               />
             </div>
             <div className='flex justify-center items-center shrink-0 w-[180px] h-[108px] opacity-60'>
@@ -35,7 +35,7 @@ export default function PartnersCollaborats() {
                 imagePath='/partnersCollaborators/logo-blockTides.png'
                 url='https://blocktides.com/'
                 alt='Logo Block Tides'
-               
+
               />
             </div>
           </div>
@@ -46,9 +46,9 @@ export default function PartnersCollaborats() {
             <h4 className='font-semibold text-rome-red uppercase'>EVENT COLLABORATOR</h4>
             <div className='flex w-[220px] h-[132px] justify-center items-center'>
               <Image
-                imagePath='/partnersCollaborators/logo-layerX.svg'
-                url='https://layerx.xyz/'
-                alt='Logo LayerX'
+                imagePath='/partnersCollaborators/logo-dmf_io.svg'
+                url='https://www.dmf.io/'
+                alt='Logo DMF.io'
                 className='h-16 md:h-24 opacity-60'
               />
             </div>
@@ -59,11 +59,12 @@ export default function PartnersCollaborats() {
             </h4>
             <div className='flex w-[220px] h-[132px] justify-center items-center'>
               <Image
-                imagePath='/partnersCollaborators/logo-dmf_io.svg'
-                url='https://www.dmf.io/'
-                alt='Logo DMF.io'
+                imagePath='/partnersCollaborators/logo-layerX.svg'
+                url='https://layerx.xyz/'
+                alt='Logo LayerX'
                 className='h-16 md:h-24 opacity-60'
               />
+
             </div>
           </div>
         </div>
