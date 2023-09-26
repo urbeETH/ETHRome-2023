@@ -1,5 +1,5 @@
-import {useEffect, useState} from 'react'
-import {Link} from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -44,24 +44,36 @@ export default function Header() {
       <div
         className={`hidden md:flex items-center justify-between px-16 py-4 fixed w-full z-50 ${headerBackground}`}
       >
-        <Link to='/'><img src='/ethrome_logo.png' className='w-40' /></Link>
+        <Link to='/'>
+          <img src='/ethrome_logo.png' className='w-40' />
+        </Link>
         <div className='flex items-center justify-center space-x-10 text-lg font-semibold'>
           <h3 className='relative underline_item cursor-pointer' onClick={() => scrollTo('intro')}>
             About
           </h3>
-          <h3 className='relative underline_item cursor-pointer' onClick={() => scrollTo('hackathon')}>
+          <h3
+            className='relative underline_item cursor-pointer'
+            onClick={() => scrollTo('hackathon')}
+          >
             Tracks
           </h3>
-          <h3 className='relative underline_item cursor-pointer' onClick={() => scrollTo('bounties')}>
+          <h3
+            className='relative underline_item cursor-pointer'
+            onClick={() => scrollTo('bounties')}
+          >
             Bounties
           </h3>
-          <h3 className='relative underline_item cursor-pointer' onClick={() => scrollTo('contact')}>
+          <h3
+            className='relative underline_item cursor-pointer'
+            onClick={() => scrollTo('contact')}
+          >
             Sponsor Zone
           </h3>
-          <Link to='https://ethrome.notion.site/Schedule-ff7f183b415c47c69aea2799540deb30' target="_blank">
-            <h3 className='relative underline_item cursor-pointer'>
-             Schedule
-            </h3>
+          <Link
+            to='https://ethrome.notion.site/Schedule-ff7f183b415c47c69aea2799540deb30'
+            target='_blank'
+          >
+            <h3 className='relative underline_item cursor-pointer'>Schedule</h3>
           </Link>
         </div>
       </div>
@@ -90,10 +102,11 @@ export default function Header() {
             <h3 className='cursor-pointer hover:underline' onClick={() => scrollTo('contact')}>
               Sponsor Zone
             </h3>
-            <Link to='https://ethrome.notion.site/ETHRome-Hacker-Manual-e3aa8b443a84426186eede13b0ae8709' target="_blank">
-              <h3 className='relative underline_item cursor-pointer'>
-                Hacker Manual
-              </h3>
+            <Link
+              to='https://ethrome.notion.site/Schedule-ff7f183b415c47c69aea2799540deb30'
+              target='_blank'
+            >
+              <h3 className='relative underline_item cursor-pointer'>Schedule</h3>
             </Link>
           </div>
         )}
