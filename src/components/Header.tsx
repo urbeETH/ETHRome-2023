@@ -58,9 +58,9 @@ export default function Header() {
           <h3 className='relative underline_item cursor-pointer' onClick={() => scrollTo('contact')}>
             Sponsor Zone
           </h3>
-          <Link to='https://ethrome.notion.site/ETHRome-Hacker-Manual-e3aa8b443a84426186eede13b0ae8709' target="_blank">
+          <Link to='https://ethrome.notion.site/Schedule-ff7f183b415c47c69aea2799540deb30' target="_blank">
             <h3 className='relative underline_item cursor-pointer'>
-              Hacker Manual
+             Schedule
             </h3>
           </Link>
         </div>

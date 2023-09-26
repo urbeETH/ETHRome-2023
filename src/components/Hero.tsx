@@ -44,11 +44,10 @@ export default function Hero() {
 
               <a
                 className='w-full md:w-40 text-rome-purple transition-colors drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center py-2 font-medium border-2 border-rome-purple hover:text-white hover:bg-rome-100 hover:border-transparent'
-                href='https://twitter.com/ETHRome'
+                href='https://ethrome.notion.site/ETHRome-Hacker-Manual-e3aa8b443a84426186eede13b0ae8709'
                 target='_blank'
               >
-                <Icon icon='mdi:twitter' className='text-2xl cursor-pointer' />
-                <h2>Stay tuned</h2>
+                <h2>Hacker Manual</h2>
               </a>
             </div>
           </div>
