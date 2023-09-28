@@ -8,6 +8,7 @@ const sideEventsList = [
     data: 'Thu, Oct 5th',
     location: 'tdesign_location.svg',
     place: 'Villaggio Globale',
+    eventLocation: 'https://www.google.com/maps/place/Villaggio+Globale/@41.8741306,12.4719822,15z/data=!4m6!3m5!1s0x132f60300ef3b2b3:0xefe2660fd385fd0f!8m2!3d41.8741306!4d12.4719822!16s%2Fg%2F11fnwh3zv1?entry=ttu'
   },
   {
     bg: 'side-events_urbetalks.png',
@@ -18,6 +19,7 @@ const sideEventsList = [
     data: 'Sat, Oct 7th',
     location: 'tdesign_location.svg',
     place: 'CAE',
+    eventLocation: 'https://www.google.com/maps/place/Villaggio+Globale/@41.8741306,12.4719822,15z/data=!4m6!3m5!1s0x132f60300ef3b2b3:0xefe2660fd385fd0f!8m2!3d41.8741306!4d12.4719822!16s%2Fg%2F11fnwh3zv1?entry=ttu'
   },
   {
     bg: 'side-events_brian.png',
@@ -28,6 +30,18 @@ const sideEventsList = [
     data: 'Sat, Oct 7th',
     location: 'tdesign_location.svg',
     place: 'CAE',
+    eventLocation: 'https://www.google.com/maps/place/Villaggio+Globale/@41.8741306,12.4719822,15z/data=!4m6!3m5!1s0x132f60300ef3b2b3:0xefe2660fd385fd0f!8m2!3d41.8741306!4d12.4719822!16s%2Fg%2F11fnwh3zv1?entry=ttu'
+  },
+  {
+    bg: 'cryptocanal.jpg',
+    link: 'https://lu.ma/privacysoirée',
+    event: 'Privacy Soiree • ETHRome ',
+    description: '​Railgun, Waku, and CryptoCanal invite you to a secret meetup!',
+    calendar: 'tdesign_calendar.svg',
+    data: 'Fri, Oct 6th',
+    location: 'tdesign_location.svg',
+    place: 'Campo de\' Fiori',
+    eventLocation: 'https://www.google.com/maps/place/Campo+de\'+Fiori/@41.8955937,12.470945,18.08z/data=!4m6!3m5!1s0x132f6055a903cf7d:0x1808fc7ca708f2c4!8m2!3d41.8957466!4d12.4718497!16zL20vMDdjMHF5?entry=ttu'
   },
   {
     bg: 'side-events_tobe.png',
@@ -56,7 +70,7 @@ export default function SideEvents() {
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-[20px] px-4'>
           {/* <div className='flex flex-col items-center space-y-8 space-x-0 md:space-x-[20px] mt-8 px-16 md:flex-row md:items-start justify-evenly md:space-y-0'> */}
           {sideEventsList.map(
-            ({ bg, link, event, description, data, place, calendar, location }) => (
+            ({ bg, link, event, description, data, place, calendar, location, eventLocation}) => (
               <div
                 className='flex flex-col items-center space-y-4 max-w-[260px] h-full'
                 key={event}
@@ -81,7 +95,7 @@ export default function SideEvents() {
                       </h2>
                     </div>
                     <a
-                      href='https://www.google.com/maps/place/Villaggio+Globale/@41.8741306,12.4719822,15z/data=!4m6!3m5!1s0x132f60300ef3b2b3:0xefe2660fd385fd0f!8m2!3d41.8741306!4d12.4719822!16s%2Fg%2F11fnwh3zv1?entry=ttu'
+                      href={eventLocation}
                       target='_blank'
                     >
                       <div className='flex justify-start space-x-[6px]'>

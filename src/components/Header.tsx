@@ -75,6 +75,12 @@ export default function Header() {
           >
             <h3 className='relative underline_item cursor-pointer'>Schedule</h3>
           </Link>
+          <Link
+              to='https://ethrome.notion.site/Regulation-7d77e4d4903d47baae9a6e8f21cf4200'
+              target='_blank'
+            >
+              <h3 className='relative underline_item cursor-pointer'>Regulation</h3>
+            </Link>
         </div>
       </div>
       <div
@@ -107,6 +113,12 @@ export default function Header() {
               target='_blank'
             >
               <h3 className='relative underline_item cursor-pointer'>Schedule</h3>
+            </Link>
+            <Link
+              to='https://ethrome.notion.site/Regulation-7d77e4d4903d47baae9a6e8f21cf4200'
+              target='_blank'
+            >
+              <h3 className='relative underline_item cursor-pointer'>Regulation</h3>
             </Link>
           </div>
         )}
