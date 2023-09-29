@@ -32,6 +32,12 @@ export default function Sponsors() {
           alt='Logo Railgun'
           className='h-28 md:h-36'
         />
+        <Image
+          imagePath='/sponsors/Polkadot_Logo_Horizontal_Black 1.svg'
+          url='https://www.polkadot.network/'
+          alt='Logo Polkadot'
+          className='h-16 md:h-20'
+        />
       </div>
       <div className='w-full grid gap-4 grid-cols-2 grid-rows-3 md:flex md:justify-center md:space-x-[24px] px-0 md:px-8 xl:px-16'>
         <Image

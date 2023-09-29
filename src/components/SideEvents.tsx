@@ -44,12 +44,15 @@ const sideEventsList = [
     eventLocation: 'https://www.google.com/maps/place/Campo+de\'+Fiori/@41.8955937,12.470945,18.08z/data=!4m6!3m5!1s0x132f6055a903cf7d:0x1808fc7ca708f2c4!8m2!3d41.8957466!4d12.4718497!16zL20vMDdjMHF5?entry=ttu'
   },
   {
-    bg: 'side-events_tobe.png',
-    link: 'mailto:sponsor@ethrome.org',
-    event: 'Your side event goes here',
-    calendar: 'null.svg',
-    location: 'null.svg',
-    description: 'If you want to organize a side event, we are happy to help!',
+    bg: 'side-events_polkadot.avif',
+    link: 'https://lu.ma/p3v87fab',
+    event: 'Polkadot Brunch • ETHRome ',
+    description: 'Ready to dive into the world of governance on chain technology?',
+    calendar: 'tdesign_calendar.svg',
+    data: 'Fri, Oct 6th',
+    location: 'tdesign_location.svg',
+    place: 'CAE',
+    eventLocation: 'https://www.google.com/maps/place/Villaggio+Globale/@41.8741306,12.4719822,15z/data=!4m6!3m5!1s0x132f60300ef3b2b3:0xefe2660fd385fd0f!8m2!3d41.8741306!4d12.4719822!16s%2Fg%2F11fnwh3zv1?entry=ttu'
   },
 ]
 
