@@ -22,7 +22,7 @@ export default function Footer() {
       </div>
       <div className='flex flex-col items-center justify-center w-full text-center'>
         <h4 className='text-sm text-center text-white'>
-          urbe.eth • Via Bruno Bruni, 116 - 00189 Roma (RM) • CF: 96565540588
+          urbe.eth • urbe.eth@gmail.com • Via Bruno Bruni, 116 - 00189 Roma (RM) • CF: 96565540588
         </h4>
         <h1 className='text-sm text-center text-white pt-2'>
           <a
