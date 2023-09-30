@@ -68,6 +68,7 @@ const bountiesList = [
     mila: 'K',
   },
   { logo: 'ETHRome-LP-Bounties-logoRequestNetwork.svg', link: 'https://request.network/en/', dollaro: '$', amount: '4', mila: 'K' },
+  { logo: 'ETHRome-LP-Bounties-logoPolkadot.svg', link: 'https://www.polkadot.network/', dollaro: '$', amount: '5', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoLayerX.svg', link: 'https://layerx.xyz/', dollaro: '$', amount: '1', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoAzuro.svg', link: 'https://azuro.org/', dollaro: '$', amount: '2.5', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoTheGraph.svg', link: 'https://thegraph.com/', dollaro: '$', amount: '2.5', mila: 'K' },
