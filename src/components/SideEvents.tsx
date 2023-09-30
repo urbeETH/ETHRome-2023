@@ -12,7 +12,7 @@ const sideEventsList = [
   },
   {
     bg: 'side-events_urbetalks.png',
-    link: 'https://www.youtube.com/channel/UC15_amrqg-rAKHlH8eYGD2Q',
+    link: 'https://lu.ma/m15ap2ov',
     event: 'urbe.eth • UrbeTalks ETHRome',
     description: 'Urbe.eth monthly meetup hosting 4 speakers delving into various topics',
     calendar: 'tdesign_calendar.svg',
@@ -23,7 +23,7 @@ const sideEventsList = [
   },
   {
     bg: 'side-events_brian.png',
-    link: 'https://www.brianknows.org/',
+    link: 'https://lu.ma/0oiv319s',
     event: 'Brian • UrbeTalks ETHRome',
     description: 'Brian.ai leads a conference on AI and web3 intersections',
     calendar: 'tdesign_calendar.svg',
@@ -34,7 +34,7 @@ const sideEventsList = [
   },
   {
     bg: 'cryptocanal.jpg',
-    link: 'https://lu.ma/privacysoirée',
+    link: 'https://lu.ma/privacysoiree',
     event: 'Privacy Soiree • ETHRome ',
     description: '​Railgun, Waku, and CryptoCanal invite you to a secret meetup!',
     calendar: 'tdesign_calendar.svg',
