@@ -73,9 +73,9 @@ const bountiesList = [
   { logo: 'ETHRome-LP-Bounties-logoAzuro.svg', link: 'https://azuro.org/', dollaro: '$', amount: '2.5', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoTheGraph.svg', link: 'https://thegraph.com/', dollaro: '$', amount: '2.5', mila: 'K' },
   { logo: 'ETHRome-LP-Bounties-logoPeanut.svg', link: 'https://peanut.to/', amount: '1', mila: 'K', dollaro: '$', },
-  { logo: 'ETHRome-LP-Bounties-logoBase.svg', link: 'https://base.org/', amount: '', mila: '', tbd: 'tbd' },
-  { logo: 'ETHRome-LP-Bounties-logoSecretNetwork.svg', link: 'https://scrt.network/', amount: '3', mila: 'k', dollaro: '$' },
-  { logo: 'ETHRome-LP-Bounties-logoBittensor.svg', link: 'https://bittensor.com/', amount: '3', mila: 'k', dollaro: '$' },
+  { logo: 'ETHRome-LP-Bounties-logoBase.svg', link: 'https://base.org/', amount: '5', mila: 'K', dollaro: '$', },
+  { logo: 'ETHRome-LP-Bounties-logoSecretNetwork.svg', link: 'https://scrt.network/', amount: '3', mila: 'K', dollaro: '$' },
+  { logo: 'ETHRome-LP-Bounties-logoBittensor.svg', link: 'https://bittensor.com/', amount: '3', mila: 'K', dollaro: '$' },
 ].sort((a, b) => parseFloat(b.amount) - parseFloat(a.amount))
 
 export default function Bounties() {
@@ -104,7 +104,7 @@ export default function Bounties() {
           id='bounties_grid'
           className='mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-[20px] gap-y-4 justify-center'
         >
-          {bountiesList.map(({ logo, link, dollaro, amount, mila, tbd }) => (
+          {bountiesList.map(({ logo, link, dollaro, amount, mila, tbd }: {logo: string, link: string, dollaro: string, amount: string, mila: string, tbd?: string}) => (
             <>
               <a href={`${link}`} target='_blank'>
                 <div

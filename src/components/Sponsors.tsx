@@ -4,11 +4,17 @@ export default function Sponsors() {
     <div className='pt-16 md:pt-24 bg-[#EFEBE6]  flex flex-col items-center justify-center'>
       <h4 className='font-semibold text-rome-purple uppercase '>Sponsors</h4>
 
-      <div className='w-full px-8 pt-3 pb-0 flex flex-col justify-center mb:pb-8 md:flex-row md:justify-evenly'>
+      <div className='w-full px-8 pt-3 pb-0 flex flex-col justify-center items-center mb:pb-8 md:flex-row'>
         <Image
           imagePath='/sponsors/logo-waku.svg'
           url='https://waku.org/'
           alt='Logo Waku'
+          className='h-auto mt-4 md:h-56 md:mt-0'
+        />
+        <Image
+          imagePath='/sponsors/logo-logos.svg'
+          url='https://logos.co/'
+          alt='Logo Logos'
           className='h-auto mt-4 md:h-56 md:mt-0'
         />
       </div>
