@@ -15,7 +15,7 @@ export default function Sponsors() {
           imagePath='/sponsors/logo-logos.svg'
           url='https://logos.co/'
           alt='Logo Logos'
-          className='h-auto mt-4 md:h-56 md:mt-0'
+          className='h-auto md:h-56 md:mt-0'
         />
       </div>
       {/* patricians */}
