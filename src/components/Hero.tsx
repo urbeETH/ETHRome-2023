@@ -34,12 +34,9 @@ export default function Hero() {
             {/* hacker form link */}
             <div className='flex flex-col items-center w-5/6 mt-4 space-x-0 space-y-4 md:flex-row md:space-x-4 md:space-y-0'>
               <a
-                href='https://bit.ly/ethrome-hacker-form-2'
-                rel='noreferrer'
-                target='_blank'
-                className='w-full md:w-40 bg-rome-purple hover:bg-rome-100 transition-colors drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center text-white py-2 font-medium border-2 border-transparent'
+                className='w-full md:w-48 bg-rome-purple hover:bg-rome-100 transition-colors drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center text-white py-2 font-medium border-2 border-transparent px-2 cursor-not-allowed bg-opacity-40'
               >
-                <p>Apply to hack</p>
+                <p>Applications closed</p>
               </a>
 
               <a
