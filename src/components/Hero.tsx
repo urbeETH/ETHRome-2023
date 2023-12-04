@@ -27,24 +27,23 @@ export default function Hero() {
               </h2>
             </div>
             <div className='flex-col hidden md:flex'>
-              <h3 className='text-xl font-semibold'>6-8th October 2023</h3>
-              <p className='text-xl'>Governance & Privacy Hackathon</p>
+              <h3 className='text-xl'>Second Edition coming <span className='font-semibold'>Autumn 2024</span></h3>
             </div>
 
             {/* hacker form link */}
             <div className='flex flex-col items-center w-5/6 mt-4 space-x-0 space-y-4 md:flex-row md:space-x-4 md:space-y-0'>
-              <a
-                className='w-full md:w-48 bg-rome-purple hover:bg-rome-100 transition-colors drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center text-white py-2 font-medium border-2 border-transparent px-2 cursor-not-allowed bg-opacity-40'
+              <a href='https://twitter.com/ETHRome'
+                className='w-full md:w-48 bg-rome-purple transition-colors drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] hover:drop-shadow-none rounded-full flex items-center justify-center text-white py-2 font-medium border-2 border-transparent px-2'
               >
-                <p>Applications closed</p>
+                <p>Stay Updated</p>
               </a>
 
               <a
-                className='w-full md:w-40 text-rome-purple transition-colors drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center py-2 font-medium border-2 border-rome-purple hover:text-white hover:bg-rome-100 hover:border-transparent'
+                className='w-full md:w-72 text-rome-purple transition-colors drop-shadow-[0_10px_8px_rgba(131,20,199,0.25)] rounded-full flex items-center justify-center py-2 font-medium border-2 border-rome-purple hover:text-white hover:bg-rome-100 hover:border-transparent'
                 href='https://ethrome.notion.site/ETHRome-Hacker-Manual-e3aa8b443a84426186eede13b0ae8709'
                 target='_blank'
               >
-                <h2>Hacker Manual</h2>
+                <h2>Hacker Manual 2023</h2>
               </a>
             </div>
           </div>
